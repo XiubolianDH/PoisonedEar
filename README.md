@@ -8,6 +8,15 @@ This repository is designed as an experiment suite rather than a single script. 
 
 <img width="1364" alt="AudioRAG" src="https://github.com/user-attachments/assets/c1e2299f-ea6d-4f75-9d4f-914d458db5a1" />
 
+Figure above illustrates the overall pipeline of our proposed retrieval poisoning attack against Audio Retrieval-Augmented Generation (AudioRAG) systems.
+
+The attack is initiated by an adversary who constructs malicious audio–text pairs. Specifically, the attacker first selects acoustically matched target audio samples and then generates target-aligned causal descriptions that are semantically shifted toward a desired malicious concept. These descriptions are carefully designed to preserve acoustic plausibility while introducing controlled semantic drift. The resulting audio–text pairs are then injected into the external knowledge database, forming a poisoned retrieval corpus.
+
+At inference time, a user submits an audio query (e.g., “What is this sound?”). The retriever retrieves top-k audio descriptions from the knowledge database based on acoustic similarity. Due to the poisoning, the retrieved context may contain adversarial descriptions that are semantically misleading yet acoustically consistent with the query.
+
+The multimodal large language model (MLLM) conditions its generation on both the input audio and the retrieved textual context. As a result, the poisoned retrieval context can bias the model’s reasoning process, leading to incorrect or malicious responses.
+
+This pipeline highlights a critical vulnerability of AudioRAG systems: although retrieval is grounded in acoustic similarity, the generation stage heavily relies on retrieved textual descriptions, making the system susceptible to cross-modal semantic manipulation.
 
 
 ## At a Glance
