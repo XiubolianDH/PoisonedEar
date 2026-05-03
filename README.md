@@ -6,7 +6,8 @@ This repository is designed as an experiment suite rather than a single script. 
 
 #Artifacture
 
-[AudioRAG_svg.pdf](https://github.com/user-attachments/files/27320471/AudioRAG_svg.pdf)
+<img width="1364" height="514" alt="AudioRAG" src="https://github.com/user-attachments/assets/c1e2299f-ea6d-4f75-9d4f-914d458db5a1" />
+
 
 
 ## At a Glance
