@@ -13,7 +13,6 @@ This repository is designed as an experiment suite rather than a single script. 
 
 
 
-
 Figure above illustrates the overall pipeline of our proposed retrieval poisoning attack against Audio Retrieval-Augmented Generation (AudioRAG) systems.
 
 The attack is initiated by an adversary who constructs malicious audio–text pairs. Specifically, the attacker first selects acoustically matched target audio samples and then generates target-aligned causal descriptions that are semantically shifted toward a desired malicious concept. These descriptions are carefully designed to preserve acoustic plausibility while introducing controlled semantic drift. The resulting audio–text pairs are then injected into the external knowledge database, forming a poisoned retrieval corpus.
