@@ -1,0 +1,540 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="870" height="780" viewBox="0 0 870 780">
+<rect width="100%" height="100%" fill="#fcfbf7"/>
+<text x="34" y="36" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#102a43">Overall ASR Heatmap: 4 Datasets x 9 Classes x 5 Poison Rates</text>
+<text x="34" y="58" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#486581">Solid datasets: tested. Clotho and ESC-50: calibrated predictions aligned to the dataset-level overall ASR summary.</text>
+<rect x="34" y="82" width="380" height="305" rx="16" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="50" y="108" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#102a43">wavcaps</text>
+<text x="134" y="108" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#7b8794">tested</text>
+<text x="166.0" y="128" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#334e68">1%</text>
+<text x="210.0" y="128" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#334e68">5%</text>
+<text x="254.0" y="128" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#334e68">10%</text>
+<text x="298.0" y="128" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#334e68">15%</text>
+<text x="342.0" y="128" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#334e68">20%</text>
+<text x="136" y="156.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#334e68">music</text>
+<rect x="144" y="140" width="42" height="22" rx="4" fill="#ffeed8"/>
+<text x="165.0" y="156" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.05</text>
+<rect x="188" y="140" width="42" height="22" rx="4" fill="#f8961a"/>
+<text x="209.0" y="156" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.55</text>
+<rect x="232" y="140" width="42" height="22" rx="4" fill="#f08d18"/>
+<text x="253.0" y="156" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f8fafc">0.60</text>
+<rect x="276" y="140" width="42" height="22" rx="4" fill="#d36a10"/>
+<text x="297.0" y="156" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f8fafc">0.80</text>
+<rect x="320" y="140" width="42" height="22" rx="4" fill="#da7312"/>
+<text x="341.0" y="156" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f8fafc">0.75</text>
+<text x="136" y="180.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#334e68">voice</text>
+<rect x="144" y="164" width="42" height="22" rx="4" fill="#fff5e8"/>
+<text x="165.0" y="180" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.01</text>
+<rect x="188" y="164" width="42" height="22" rx="4" fill="#ffd8a3"/>
+<text x="209.0" y="180" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.18</text>
+<rect x="232" y="164" width="42" height="22" rx="4" fill="#ffc270"/>
+<text x="253.0" y="180" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.30</text>
+<rect x="276" y="164" width="42" height="22" rx="4" fill="#ff9f1c"/>
+<text x="297.0" y="180" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.50</text>
+<rect x="320" y="164" width="42" height="22" rx="4" fill="#bc500a"/>
+<text x="341.0" y="180" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f8fafc">0.95</text>
+<text x="136" y="204.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#334e68">vehicle</text>
+<rect x="144" y="188" width="42" height="22" rx="4" fill="#fff7ed"/>
+<text x="165.0" y="204" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.00</text>
+<rect x="188" y="188" width="42" height="22" rx="4" fill="#ffcb84"/>
+<text x="209.0" y="204" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.25</text>
+<rect x="232" y="188" width="42" height="22" rx="4" fill="#da7312"/>
+<text x="253.0" y="204" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f8fafc">0.75</text>
+<rect x="276" y="188" width="42" height="22" rx="4" fill="#da7312"/>
+<text x="297.0" y="204" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f8fafc">0.75</text>
+<rect x="320" y="188" width="42" height="22" rx="4" fill="#d36a10"/>
+<text x="341.0" y="204" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f8fafc">0.80</text>
+<text x="136" y="228.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#334e68">animal</text>
+<rect x="144" y="212" width="42" height="22" rx="4" fill="#fff7ed"/>
+<text x="165.0" y="228" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.00</text>
+<rect x="188" y="212" width="42" height="22" rx="4" fill="#ffc77b"/>
+<text x="209.0" y="228" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.27</text>
+<rect x="232" y="212" width="42" height="22" rx="4" fill="#ffa72f"/>
+<text x="253.0" y="228" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.45</text>
+<rect x="276" y="212" width="42" height="22" rx="4" fill="#ffc77b"/>
+<text x="297.0" y="228" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.27</text>
+<rect x="320" y="212" width="42" height="22" rx="4" fill="#ffa72f"/>
+<text x="341.0" y="228" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.45</text>
+<text x="136" y="252.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#334e68">machine</text>
+<rect x="144" y="236" width="42" height="22" rx="4" fill="#ffeed8"/>
+<text x="165.0" y="252" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.05</text>
+<rect x="188" y="236" width="42" height="22" rx="4" fill="#ffc270"/>
+<text x="209.0" y="252" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.30</text>
+<rect x="232" y="236" width="42" height="22" rx="4" fill="#ff9f1c"/>
+<text x="253.0" y="252" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.50</text>
+<rect x="276" y="236" width="42" height="22" rx="4" fill="#d36a10"/>
+<text x="297.0" y="252" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f8fafc">0.80</text>
+<rect x="320" y="236" width="42" height="22" rx="4" fill="#cb610e"/>
+<text x="341.0" y="252" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f8fafc">0.85</text>
+<text x="136" y="276.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#334e68">water</text>
+<rect x="144" y="260" width="42" height="22" rx="4" fill="#ffeed8"/>
+<text x="165.0" y="276" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.05</text>
+<rect x="188" y="260" width="42" height="22" rx="4" fill="#ffc270"/>
+<text x="209.0" y="276" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.30</text>
+<rect x="232" y="260" width="42" height="22" rx="4" fill="#ff9f1c"/>
+<text x="253.0" y="276" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.50</text>
+<rect x="276" y="260" width="42" height="22" rx="4" fill="#d36a10"/>
+<text x="297.0" y="276" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f8fafc">0.80</text>
+<rect x="320" y="260" width="42" height="22" rx="4" fill="#da7312"/>
+<text x="341.0" y="276" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f8fafc">0.75</text>
+<text x="136" y="300.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#334e68">impact</text>
+<rect x="144" y="284" width="42" height="22" rx="4" fill="#fff7ed"/>
+<text x="165.0" y="300" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.00</text>
+<rect x="188" y="284" width="42" height="22" rx="4" fill="#ffd499"/>
+<text x="209.0" y="300" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.20</text>
+<rect x="232" y="284" width="42" height="22" rx="4" fill="#f08d18"/>
+<text x="253.0" y="300" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f8fafc">0.60</text>
+<rect x="276" y="284" width="42" height="22" rx="4" fill="#d36a10"/>
+<text x="297.0" y="300" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f8fafc">0.80</text>
+<rect x="320" y="284" width="42" height="22" rx="4" fill="#d36a10"/>
+<text x="341.0" y="300" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f8fafc">0.80</text>
+<text x="136" y="324.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#334e68">electronic</text>
+<rect x="144" y="308" width="42" height="22" rx="4" fill="#fff7ed"/>
+<text x="165.0" y="324" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.00</text>
+<rect x="188" y="308" width="42" height="22" rx="4" fill="#ffddae"/>
+<text x="209.0" y="324" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.15</text>
+<rect x="232" y="308" width="42" height="22" rx="4" fill="#ffcb84"/>
+<text x="253.0" y="324" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.25</text>
+<rect x="276" y="308" width="42" height="22" rx="4" fill="#ffb146"/>
+<text x="297.0" y="324" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.40</text>
+<rect x="320" y="308" width="42" height="22" rx="4" fill="#e17c14"/>
+<text x="341.0" y="324" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f8fafc">0.70</text>
+<text x="136" y="348.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#334e68">ambience</text>
+<rect x="144" y="332" width="42" height="22" rx="4" fill="#fff7ed"/>
+<text x="165.0" y="348" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.00</text>
+<rect x="188" y="332" width="42" height="22" rx="4" fill="#fff7ed"/>
+<text x="209.0" y="348" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.00</text>
+<rect x="232" y="332" width="42" height="22" rx="4" fill="#ff9f1c"/>
+<text x="253.0" y="348" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.50</text>
+<rect x="276" y="332" width="42" height="22" rx="4" fill="#ff9f1c"/>
+<text x="297.0" y="348" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.50</text>
+<rect x="320" y="332" width="42" height="22" rx="4" fill="#b54708"/>
+<text x="341.0" y="348" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f8fafc">1.00</text>
+<rect x="460" y="82" width="380" height="305" rx="16" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="476" y="108" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#102a43">audioset</text>
+<text x="560" y="108" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#7b8794">tested</text>
+<text x="592.0" y="128" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#334e68">1%</text>
+<text x="636.0" y="128" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#334e68">5%</text>
+<text x="680.0" y="128" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#334e68">10%</text>
+<text x="724.0" y="128" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#334e68">15%</text>
+<text x="768.0" y="128" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#334e68">20%</text>
+<text x="562" y="156.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#334e68">music</text>
+<rect x="570" y="140" width="42" height="22" rx="4" fill="#ffbc62"/>
+<text x="591.0" y="156" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.33</text>
+<rect x="614" y="140" width="42" height="22" rx="4" fill="#d36a10"/>
+<text x="635.0" y="156" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f8fafc">0.80</text>
+<rect x="658" y="140" width="42" height="22" rx="4" fill="#bc500a"/>
+<text x="679.0" y="156" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f8fafc">0.95</text>
+<rect x="702" y="140" width="42" height="22" rx="4" fill="#c4590c"/>
+<text x="723.0" y="156" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f8fafc">0.90</text>
+<rect x="746" y="140" width="42" height="22" rx="4" fill="#cb610e"/>
+<text x="767.0" y="156" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f8fafc">0.85</text>
+<text x="562" y="180.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#334e68">voice</text>
+<rect x="570" y="164" width="42" height="22" rx="4" fill="#ffddae"/>
+<text x="591.0" y="180" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.15</text>
+<rect x="614" y="164" width="42" height="22" rx="4" fill="#ffd499"/>
+<text x="635.0" y="180" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.20</text>
+<rect x="658" y="164" width="42" height="22" rx="4" fill="#e98516"/>
+<text x="679.0" y="180" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f8fafc">0.65</text>
+<rect x="702" y="164" width="42" height="22" rx="4" fill="#f8961a"/>
+<text x="723.0" y="180" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.55</text>
+<rect x="746" y="164" width="42" height="22" rx="4" fill="#da7312"/>
+<text x="767.0" y="180" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f8fafc">0.75</text>
+<text x="562" y="204.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#334e68">vehicle</text>
+<rect x="570" y="188" width="42" height="22" rx="4" fill="#fff7ed"/>
+<text x="591.0" y="204" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.00</text>
+<rect x="614" y="188" width="42" height="22" rx="4" fill="#ffc270"/>
+<text x="635.0" y="204" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.30</text>
+<rect x="658" y="188" width="42" height="22" rx="4" fill="#ffc270"/>
+<text x="679.0" y="204" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.30</text>
+<rect x="702" y="188" width="42" height="22" rx="4" fill="#ffa831"/>
+<text x="723.0" y="204" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.45</text>
+<rect x="746" y="188" width="42" height="22" rx="4" fill="#da7312"/>
+<text x="767.0" y="204" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f8fafc">0.75</text>
+<text x="562" y="228.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#334e68">animal</text>
+<rect x="570" y="212" width="42" height="22" rx="4" fill="#fff7ed"/>
+<text x="591.0" y="228" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.00</text>
+<rect x="614" y="212" width="42" height="22" rx="4" fill="#ffcb84"/>
+<text x="635.0" y="228" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.25</text>
+<rect x="658" y="212" width="42" height="22" rx="4" fill="#f8961a"/>
+<text x="679.0" y="228" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.55</text>
+<rect x="702" y="212" width="42" height="22" rx="4" fill="#da7312"/>
+<text x="723.0" y="228" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f8fafc">0.75</text>
+<rect x="746" y="212" width="42" height="22" rx="4" fill="#da7312"/>
+<text x="767.0" y="228" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f8fafc">0.75</text>
+<text x="562" y="252.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#334e68">machine</text>
+<rect x="570" y="236" width="42" height="22" rx="4" fill="#fff7ed"/>
+<text x="591.0" y="252" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.00</text>
+<rect x="614" y="236" width="42" height="22" rx="4" fill="#ffe1b9"/>
+<text x="635.0" y="252" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.12</text>
+<rect x="658" y="236" width="42" height="22" rx="4" fill="#ffb550"/>
+<text x="679.0" y="252" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.38</text>
+<rect x="702" y="236" width="42" height="22" rx="4" fill="#e37e14"/>
+<text x="723.0" y="252" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f8fafc">0.69</text>
+<rect x="746" y="236" width="42" height="22" rx="4" fill="#d16810"/>
+<text x="767.0" y="252" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f8fafc">0.81</text>
+<text x="562" y="276.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#334e68">water</text>
+<rect x="570" y="260" width="42" height="22" rx="4" fill="#fff7ed"/>
+<text x="591.0" y="276" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.00</text>
+<rect x="614" y="260" width="42" height="22" rx="4" fill="#ffac3a"/>
+<text x="635.0" y="276" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.43</text>
+<rect x="658" y="260" width="42" height="22" rx="4" fill="#df7913"/>
+<text x="679.0" y="276" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f8fafc">0.71</text>
+<rect x="702" y="260" width="42" height="22" rx="4" fill="#d56d11"/>
+<text x="723.0" y="276" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f8fafc">0.79</text>
+<rect x="746" y="260" width="42" height="22" rx="4" fill="#ca600e"/>
+<text x="767.0" y="276" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f8fafc">0.86</text>
+<text x="562" y="300.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#334e68">impact</text>
+<rect x="570" y="284" width="42" height="22" rx="4" fill="#fff7ed"/>
+<text x="591.0" y="300" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.00</text>
+<rect x="614" y="284" width="42" height="22" rx="4" fill="#ffce8d"/>
+<text x="635.0" y="300" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.23</text>
+<rect x="658" y="284" width="42" height="22" rx="4" fill="#ee8b17"/>
+<text x="679.0" y="300" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f8fafc">0.62</text>
+<rect x="702" y="284" width="42" height="22" rx="4" fill="#d77011"/>
+<text x="723.0" y="300" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f8fafc">0.77</text>
+<rect x="746" y="284" width="42" height="22" rx="4" fill="#cc620e"/>
+<text x="767.0" y="300" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f8fafc">0.85</text>
+<text x="562" y="324.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#334e68">electronic</text>
+<rect x="570" y="308" width="42" height="22" rx="4" fill="#fff7ed"/>
+<text x="591.0" y="324" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.00</text>
+<rect x="614" y="308" width="42" height="22" rx="4" fill="#ffdaa7"/>
+<text x="635.0" y="324" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.17</text>
+<rect x="658" y="308" width="42" height="22" rx="4" fill="#ff9f1c"/>
+<text x="679.0" y="324" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.50</text>
+<rect x="702" y="308" width="42" height="22" rx="4" fill="#e68215"/>
+<text x="723.0" y="324" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f8fafc">0.67</text>
+<rect x="746" y="308" width="42" height="22" rx="4" fill="#ce640f"/>
+<text x="767.0" y="324" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f8fafc">0.83</text>
+<text x="562" y="348.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#334e68">ambience</text>
+<rect x="570" y="332" width="42" height="22" rx="4" fill="#fff7ed"/>
+<text x="591.0" y="348" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.00</text>
+<rect x="614" y="332" width="42" height="22" rx="4" fill="#fff7ed"/>
+<text x="635.0" y="348" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.00</text>
+<rect x="658" y="332" width="42" height="22" rx="4" fill="#ffbc62"/>
+<text x="679.0" y="348" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.33</text>
+<rect x="702" y="332" width="42" height="22" rx="4" fill="#e68215"/>
+<text x="723.0" y="348" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f8fafc">0.67</text>
+<rect x="746" y="332" width="42" height="22" rx="4" fill="#b54708"/>
+<text x="767.0" y="348" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f8fafc">1.00</text>
+<rect x="34" y="413" width="380" height="305" rx="16" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="50" y="439" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#102a43">clotho</text>
+<text x="134" y="439" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#7b8794">predicted</text>
+<text x="166.0" y="459" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#334e68">1%</text>
+<text x="210.0" y="459" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#334e68">5%</text>
+<text x="254.0" y="459" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#334e68">10%</text>
+<text x="298.0" y="459" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#334e68">15%</text>
+<text x="342.0" y="459" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#334e68">20%</text>
+<text x="136" y="487.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#334e68">music</text>
+<rect x="144" y="471" width="42" height="22" rx="4" fill="#ffa01e"/>
+<text x="165.0" y="487" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.50</text>
+<rect x="188" y="471" width="42" height="22" rx="4" fill="#c85e0d"/>
+<text x="209.0" y="487" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f8fafc">0.87</text>
+<rect x="232" y="471" width="42" height="22" rx="4" fill="#d1680f"/>
+<text x="253.0" y="487" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f8fafc">0.81</text>
+<rect x="276" y="471" width="42" height="22" rx="4" fill="#bb4e0a"/>
+<text x="297.0" y="487" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f8fafc">0.96</text>
+<rect x="320" y="471" width="42" height="22" rx="4" fill="#cd640f"/>
+<text x="341.0" y="487" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f8fafc">0.84</text>
+<text x="136" y="511.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#334e68">voice</text>
+<rect x="144" y="495" width="42" height="22" rx="4" fill="#ffd59c"/>
+<text x="165.0" y="511" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.19</text>
+<rect x="188" y="495" width="42" height="22" rx="4" fill="#ffca82"/>
+<text x="209.0" y="511" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.26</text>
+<rect x="232" y="495" width="42" height="22" rx="4" fill="#ffa52a"/>
+<text x="253.0" y="511" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.47</text>
+<rect x="276" y="495" width="42" height="22" rx="4" fill="#f18e18"/>
+<text x="297.0" y="511" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f8fafc">0.60</text>
+<rect x="320" y="495" width="42" height="22" rx="4" fill="#bc4f0a"/>
+<text x="341.0" y="511" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f8fafc">0.95</text>
+<text x="136" y="535.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#334e68">vehicle</text>
+<rect x="144" y="519" width="42" height="22" rx="4" fill="#fff7ed"/>
+<text x="165.0" y="535" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.00</text>
+<rect x="188" y="519" width="42" height="22" rx="4" fill="#ffb653"/>
+<text x="209.0" y="535" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.37</text>
+<rect x="232" y="519" width="42" height="22" rx="4" fill="#e07a14"/>
+<text x="253.0" y="535" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f8fafc">0.71</text>
+<rect x="276" y="519" width="42" height="22" rx="4" fill="#d87011"/>
+<text x="297.0" y="535" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f8fafc">0.77</text>
+<rect x="320" y="519" width="42" height="22" rx="4" fill="#cd630e"/>
+<text x="341.0" y="535" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f8fafc">0.84</text>
+<text x="136" y="559.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#334e68">animal</text>
+<rect x="144" y="543" width="42" height="22" rx="4" fill="#fff7ed"/>
+<text x="165.0" y="559" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.00</text>
+<rect x="188" y="543" width="42" height="22" rx="4" fill="#ffb652"/>
+<text x="209.0" y="559" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.37</text>
+<rect x="232" y="543" width="42" height="22" rx="4" fill="#f7951a"/>
+<text x="253.0" y="559" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.56</text>
+<rect x="276" y="543" width="42" height="22" rx="4" fill="#ffa223"/>
+<text x="297.0" y="559" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.48</text>
+<rect x="320" y="543" width="42" height="22" rx="4" fill="#f39119"/>
+<text x="341.0" y="559" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f8fafc">0.58</text>
+<text x="136" y="583.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#334e68">machine</text>
+<rect x="144" y="567" width="42" height="22" rx="4" fill="#ffe0b7"/>
+<text x="165.0" y="583" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.13</text>
+<rect x="188" y="567" width="42" height="22" rx="4" fill="#ffba5d"/>
+<text x="209.0" y="583" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.34</text>
+<rect x="232" y="567" width="42" height="22" rx="4" fill="#fa991b"/>
+<text x="253.0" y="583" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.53</text>
+<rect x="276" y="567" width="42" height="22" rx="4" fill="#c65b0c"/>
+<text x="297.0" y="583" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f8fafc">0.89</text>
+<rect x="320" y="567" width="42" height="22" rx="4" fill="#c4590c"/>
+<text x="341.0" y="583" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f8fafc">0.90</text>
+<text x="136" y="607.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#334e68">water</text>
+<rect x="144" y="591" width="42" height="22" rx="4" fill="#ffe0b7"/>
+<text x="165.0" y="607" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.13</text>
+<rect x="188" y="591" width="42" height="22" rx="4" fill="#ffa428"/>
+<text x="209.0" y="607" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.47</text>
+<rect x="232" y="591" width="42" height="22" rx="4" fill="#e98516"/>
+<text x="253.0" y="607" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f8fafc">0.65</text>
+<rect x="276" y="591" width="42" height="22" rx="4" fill="#c0550b"/>
+<text x="297.0" y="607" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f8fafc">0.92</text>
+<rect x="320" y="591" width="42" height="22" rx="4" fill="#cd640e"/>
+<text x="341.0" y="607" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f8fafc">0.84</text>
+<text x="136" y="631.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#334e68">impact</text>
+<rect x="144" y="615" width="42" height="22" rx="4" fill="#fff7ed"/>
+<text x="165.0" y="631" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.00</text>
+<rect x="188" y="615" width="42" height="22" rx="4" fill="#ffc473"/>
+<text x="209.0" y="631" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.29</text>
+<rect x="232" y="615" width="42" height="22" rx="4" fill="#e27c14"/>
+<text x="253.0" y="631" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f8fafc">0.70</text>
+<rect x="276" y="615" width="42" height="22" rx="4" fill="#c1560b"/>
+<text x="297.0" y="631" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f8fafc">0.92</text>
+<rect x="320" y="615" width="42" height="22" rx="4" fill="#c85e0d"/>
+<text x="341.0" y="631" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f8fafc">0.87</text>
+<text x="136" y="655.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#334e68">electronic</text>
+<rect x="144" y="639" width="42" height="22" rx="4" fill="#fff7ed"/>
+<text x="165.0" y="655" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.00</text>
+<rect x="188" y="639" width="42" height="22" rx="4" fill="#ffd193"/>
+<text x="209.0" y="655" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.22</text>
+<rect x="232" y="639" width="42" height="22" rx="4" fill="#ffb550"/>
+<text x="253.0" y="655" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.37</text>
+<rect x="276" y="639" width="42" height="22" rx="4" fill="#f7951a"/>
+<text x="297.0" y="655" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.56</text>
+<rect x="320" y="639" width="42" height="22" rx="4" fill="#d46b10"/>
+<text x="341.0" y="655" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f8fafc">0.79</text>
+<text x="136" y="679.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#334e68">ambience</text>
+<rect x="144" y="663" width="42" height="22" rx="4" fill="#fff7ed"/>
+<text x="165.0" y="679" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.00</text>
+<rect x="188" y="663" width="42" height="22" rx="4" fill="#fff7ed"/>
+<text x="209.0" y="679" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.00</text>
+<rect x="232" y="663" width="42" height="22" rx="4" fill="#fc9c1b"/>
+<text x="253.0" y="679" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.52</text>
+<rect x="276" y="663" width="42" height="22" rx="4" fill="#eb8716"/>
+<text x="297.0" y="679" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f8fafc">0.64</text>
+<rect x="320" y="663" width="42" height="22" rx="4" fill="#b54708"/>
+<text x="341.0" y="679" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f8fafc">1.00</text>
+<rect x="460" y="413" width="380" height="305" rx="16" fill="#ffffff" stroke="#d9e2ec"/>
+<text x="476" y="439" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#102a43">esc50</text>
+<text x="560" y="439" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#7b8794">predicted</text>
+<text x="592.0" y="459" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#334e68">1%</text>
+<text x="636.0" y="459" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#334e68">5%</text>
+<text x="680.0" y="459" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#334e68">10%</text>
+<text x="724.0" y="459" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#334e68">15%</text>
+<text x="768.0" y="459" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#334e68">20%</text>
+<text x="562" y="487.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#334e68">music</text>
+<rect x="570" y="471" width="42" height="22" rx="4" fill="#ff9f1d"/>
+<text x="591.0" y="487" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.50</text>
+<rect x="614" y="471" width="42" height="22" rx="4" fill="#c0540b"/>
+<text x="635.0" y="487" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f8fafc">0.92</text>
+<rect x="658" y="471" width="42" height="22" rx="4" fill="#c0540b"/>
+<text x="679.0" y="487" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f8fafc">0.92</text>
+<rect x="702" y="471" width="42" height="22" rx="4" fill="#bc500a"/>
+<text x="723.0" y="487" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f8fafc">0.95</text>
+<rect x="746" y="471" width="42" height="22" rx="4" fill="#cc630e"/>
+<text x="767.0" y="487" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f8fafc">0.84</text>
+<text x="562" y="511.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#334e68">voice</text>
+<rect x="570" y="495" width="42" height="22" rx="4" fill="#ffd091"/>
+<text x="591.0" y="511" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.22</text>
+<rect x="614" y="495" width="42" height="22" rx="4" fill="#ffcd88"/>
+<text x="635.0" y="511" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.24</text>
+<rect x="658" y="495" width="42" height="22" rx="4" fill="#ef8c18"/>
+<text x="679.0" y="511" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f8fafc">0.61</text>
+<rect x="702" y="495" width="42" height="22" rx="4" fill="#f39019"/>
+<text x="723.0" y="511" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f8fafc">0.58</text>
+<rect x="746" y="495" width="42" height="22" rx="4" fill="#d26a10"/>
+<text x="767.0" y="511" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f8fafc">0.80</text>
+<text x="562" y="535.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#334e68">vehicle</text>
+<rect x="570" y="519" width="42" height="22" rx="4" fill="#fff7ed"/>
+<text x="591.0" y="535" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.00</text>
+<rect x="614" y="519" width="42" height="22" rx="4" fill="#ffb858"/>
+<text x="635.0" y="535" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.36</text>
+<rect x="658" y="519" width="42" height="22" rx="4" fill="#ffaf42"/>
+<text x="679.0" y="535" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.41</text>
+<rect x="702" y="519" width="42" height="22" rx="4" fill="#f7961a"/>
+<text x="723.0" y="535" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.55</text>
+<rect x="746" y="519" width="42" height="22" rx="4" fill="#d76f11"/>
+<text x="767.0" y="535" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f8fafc">0.77</text>
+<text x="562" y="559.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#334e68">animal</text>
+<rect x="570" y="543" width="42" height="22" rx="4" fill="#fff7ed"/>
+<text x="591.0" y="559" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.00</text>
+<rect x="614" y="543" width="42" height="22" rx="4" fill="#ffc06a"/>
+<text x="635.0" y="559" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.31</text>
+<rect x="658" y="543" width="42" height="22" rx="4" fill="#f7951a"/>
+<text x="679.0" y="559" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.56</text>
+<rect x="702" y="543" width="42" height="22" rx="4" fill="#e07a14"/>
+<text x="723.0" y="559" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f8fafc">0.71</text>
+<rect x="746" y="543" width="42" height="22" rx="4" fill="#e17c14"/>
+<text x="767.0" y="559" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f8fafc">0.70</text>
+<text x="562" y="583.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#334e68">machine</text>
+<rect x="570" y="567" width="42" height="22" rx="4" fill="#fff4e5"/>
+<text x="591.0" y="583" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.02</text>
+<rect x="614" y="567" width="42" height="22" rx="4" fill="#ffd49b"/>
+<text x="635.0" y="583" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.20</text>
+<rect x="658" y="567" width="42" height="22" rx="4" fill="#ffad3e"/>
+<text x="679.0" y="583" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.42</text>
+<rect x="702" y="567" width="42" height="22" rx="4" fill="#d77011"/>
+<text x="723.0" y="583" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f8fafc">0.77</text>
+<rect x="746" y="567" width="42" height="22" rx="4" fill="#ce650f"/>
+<text x="767.0" y="583" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f8fafc">0.83</text>
+<text x="562" y="607.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#334e68">water</text>
+<rect x="570" y="591" width="42" height="22" rx="4" fill="#fff4e5"/>
+<text x="591.0" y="607" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.02</text>
+<rect x="614" y="591" width="42" height="22" rx="4" fill="#ffa01e"/>
+<text x="635.0" y="607" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.50</text>
+<rect x="658" y="591" width="42" height="22" rx="4" fill="#e17b14"/>
+<text x="679.0" y="607" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f8fafc">0.70</text>
+<rect x="702" y="591" width="42" height="22" rx="4" fill="#cb610e"/>
+<text x="723.0" y="607" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f8fafc">0.85</text>
+<rect x="746" y="591" width="42" height="22" rx="4" fill="#cc620e"/>
+<text x="767.0" y="607" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f8fafc">0.85</text>
+<text x="562" y="631.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#334e68">impact</text>
+<rect x="570" y="615" width="42" height="22" rx="4" fill="#fff7ed"/>
+<text x="591.0" y="631" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.00</text>
+<rect x="614" y="615" width="42" height="22" rx="4" fill="#ffc679"/>
+<text x="635.0" y="631" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.28</text>
+<rect x="658" y="615" width="42" height="22" rx="4" fill="#ea8616"/>
+<text x="679.0" y="631" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f8fafc">0.64</text>
+<rect x="702" y="615" width="42" height="22" rx="4" fill="#cd630e"/>
+<text x="723.0" y="631" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f8fafc">0.84</text>
+<rect x="746" y="615" width="42" height="22" rx="4" fill="#cb620e"/>
+<text x="767.0" y="631" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f8fafc">0.85</text>
+<text x="562" y="655.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#334e68">electronic</text>
+<rect x="570" y="639" width="42" height="22" rx="4" fill="#fff7ed"/>
+<text x="591.0" y="655" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.00</text>
+<rect x="614" y="639" width="42" height="22" rx="4" fill="#ffd499"/>
+<text x="635.0" y="655" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.20</text>
+<rect x="658" y="639" width="42" height="22" rx="4" fill="#ffa428"/>
+<text x="679.0" y="655" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.47</text>
+<rect x="702" y="639" width="42" height="22" rx="4" fill="#e78215"/>
+<text x="723.0" y="655" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f8fafc">0.66</text>
+<rect x="746" y="639" width="42" height="22" rx="4" fill="#d0670f"/>
+<text x="767.0" y="655" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f8fafc">0.82</text>
+<text x="562" y="679.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#334e68">ambience</text>
+<rect x="570" y="663" width="42" height="22" rx="4" fill="#fff7ed"/>
+<text x="591.0" y="679" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.00</text>
+<rect x="614" y="663" width="42" height="22" rx="4" fill="#fff7ed"/>
+<text x="635.0" y="679" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.00</text>
+<rect x="658" y="663" width="42" height="22" rx="4" fill="#ffb34c"/>
+<text x="679.0" y="679" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#0f172a">0.38</text>
+<rect x="702" y="663" width="42" height="22" rx="4" fill="#e47f15"/>
+<text x="723.0" y="679" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f8fafc">0.68</text>
+<rect x="746" y="663" width="42" height="22" rx="4" fill="#b54708"/>
+<text x="767.0" y="679" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#f8fafc">1.00</text>
+<text x="210" y="708" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="700" fill="#102a43">Overall ASR</text>
+<rect x="210.0" y="728" width="6" height="16" fill="#fff7ed"/>
+<rect x="215.2" y="728" width="6" height="16" fill="#fff5e9"/>
+<rect x="220.4" y="728" width="6" height="16" fill="#fff3e5"/>
+<rect x="225.6" y="728" width="6" height="16" fill="#fff2e0"/>
+<rect x="230.8" y="728" width="6" height="16" fill="#fff0dc"/>
+<rect x="236.0" y="728" width="6" height="16" fill="#ffeed8"/>
+<rect x="241.2" y="728" width="6" height="16" fill="#ffecd4"/>
+<rect x="246.4" y="728" width="6" height="16" fill="#ffebd0"/>
+<rect x="251.6" y="728" width="6" height="16" fill="#ffe9cc"/>
+<rect x="256.8" y="728" width="6" height="16" fill="#ffe7c7"/>
+<rect x="262.0" y="728" width="6" height="16" fill="#ffe5c3"/>
+<rect x="267.2" y="728" width="6" height="16" fill="#ffe4bf"/>
+<rect x="272.4" y="728" width="6" height="16" fill="#ffe2bb"/>
+<rect x="277.6" y="728" width="6" height="16" fill="#ffe0b7"/>
+<rect x="282.8" y="728" width="6" height="16" fill="#ffdeb2"/>
+<rect x="288.0" y="728" width="6" height="16" fill="#ffddae"/>
+<rect x="293.2" y="728" width="6" height="16" fill="#ffdbaa"/>
+<rect x="298.4" y="728" width="6" height="16" fill="#ffd9a6"/>
+<rect x="303.6" y="728" width="6" height="16" fill="#ffd7a2"/>
+<rect x="308.8" y="728" width="6" height="16" fill="#ffd69e"/>
+<rect x="314.0" y="728" width="6" height="16" fill="#ffd499"/>
+<rect x="319.2" y="728" width="6" height="16" fill="#ffd295"/>
+<rect x="324.4" y="728" width="6" height="16" fill="#ffd091"/>
+<rect x="329.6" y="728" width="6" height="16" fill="#ffcf8d"/>
+<rect x="334.8" y="728" width="6" height="16" fill="#ffcd89"/>
+<rect x="340.0" y="728" width="6" height="16" fill="#ffcb84"/>
+<rect x="345.20000000000005" y="728" width="6" height="16" fill="#ffc980"/>
+<rect x="350.4" y="728" width="6" height="16" fill="#ffc77c"/>
+<rect x="355.6" y="728" width="6" height="16" fill="#ffc678"/>
+<rect x="360.8" y="728" width="6" height="16" fill="#ffc474"/>
+<rect x="366.0" y="728" width="6" height="16" fill="#ffc270"/>
+<rect x="371.20000000000005" y="728" width="6" height="16" fill="#ffc06b"/>
+<rect x="376.4" y="728" width="6" height="16" fill="#ffbf67"/>
+<rect x="381.6" y="728" width="6" height="16" fill="#ffbd63"/>
+<rect x="386.8" y="728" width="6" height="16" fill="#ffbb5f"/>
+<rect x="392.0" y="728" width="6" height="16" fill="#ffb95b"/>
+<rect x="397.20000000000005" y="728" width="6" height="16" fill="#ffb857"/>
+<rect x="402.4" y="728" width="6" height="16" fill="#ffb652"/>
+<rect x="407.6" y="728" width="6" height="16" fill="#ffb44e"/>
+<rect x="412.8" y="728" width="6" height="16" fill="#ffb24a"/>
+<rect x="418.0" y="728" width="6" height="16" fill="#ffb146"/>
+<rect x="423.20000000000005" y="728" width="6" height="16" fill="#ffaf42"/>
+<rect x="428.4" y="728" width="6" height="16" fill="#ffad3d"/>
+<rect x="433.6" y="728" width="6" height="16" fill="#ffab39"/>
+<rect x="438.8" y="728" width="6" height="16" fill="#ffaa35"/>
+<rect x="444.0" y="728" width="6" height="16" fill="#ffa831"/>
+<rect x="449.20000000000005" y="728" width="6" height="16" fill="#ffa62d"/>
+<rect x="454.4" y="728" width="6" height="16" fill="#ffa429"/>
+<rect x="459.6" y="728" width="6" height="16" fill="#ffa324"/>
+<rect x="464.8" y="728" width="6" height="16" fill="#ffa120"/>
+<rect x="470.0" y="728" width="6" height="16" fill="#ff9f1c"/>
+<rect x="475.2" y="728" width="6" height="16" fill="#fe9d1c"/>
+<rect x="480.40000000000003" y="728" width="6" height="16" fill="#fc9b1b"/>
+<rect x="485.6" y="728" width="6" height="16" fill="#fb9a1b"/>
+<rect x="490.8" y="728" width="6" height="16" fill="#f9981a"/>
+<rect x="496.0" y="728" width="6" height="16" fill="#f8961a"/>
+<rect x="501.2" y="728" width="6" height="16" fill="#f6941a"/>
+<rect x="506.40000000000003" y="728" width="6" height="16" fill="#f59319"/>
+<rect x="511.6" y="728" width="6" height="16" fill="#f39119"/>
+<rect x="516.8" y="728" width="6" height="16" fill="#f28f18"/>
+<rect x="522.0" y="728" width="6" height="16" fill="#f08d18"/>
+<rect x="527.2" y="728" width="6" height="16" fill="#ef8c18"/>
+<rect x="532.4000000000001" y="728" width="6" height="16" fill="#ed8a17"/>
+<rect x="537.6" y="728" width="6" height="16" fill="#ec8817"/>
+<rect x="542.8" y="728" width="6" height="16" fill="#ea8616"/>
+<rect x="548.0" y="728" width="6" height="16" fill="#e98516"/>
+<rect x="553.2" y="728" width="6" height="16" fill="#e78316"/>
+<rect x="558.4000000000001" y="728" width="6" height="16" fill="#e68115"/>
+<rect x="563.6" y="728" width="6" height="16" fill="#e47f15"/>
+<rect x="568.8" y="728" width="6" height="16" fill="#e37e14"/>
+<rect x="574.0" y="728" width="6" height="16" fill="#e17c14"/>
+<rect x="579.2" y="728" width="6" height="16" fill="#e07a14"/>
+<rect x="584.4000000000001" y="728" width="6" height="16" fill="#de7813"/>
+<rect x="589.6" y="728" width="6" height="16" fill="#dd7713"/>
+<rect x="594.8" y="728" width="6" height="16" fill="#db7512"/>
+<rect x="600.0" y="728" width="6" height="16" fill="#da7312"/>
+<rect x="605.2" y="728" width="6" height="16" fill="#d97112"/>
+<rect x="610.4000000000001" y="728" width="6" height="16" fill="#d76f11"/>
+<rect x="615.6" y="728" width="6" height="16" fill="#d66e11"/>
+<rect x="620.8" y="728" width="6" height="16" fill="#d46c10"/>
+<rect x="626.0" y="728" width="6" height="16" fill="#d36a10"/>
+<rect x="631.2" y="728" width="6" height="16" fill="#d16810"/>
+<rect x="636.4000000000001" y="728" width="6" height="16" fill="#d0670f"/>
+<rect x="641.6" y="728" width="6" height="16" fill="#ce650f"/>
+<rect x="646.8" y="728" width="6" height="16" fill="#cd630e"/>
+<rect x="652.0" y="728" width="6" height="16" fill="#cb610e"/>
+<rect x="657.2" y="728" width="6" height="16" fill="#ca600e"/>
+<rect x="662.4000000000001" y="728" width="6" height="16" fill="#c85e0d"/>
+<rect x="667.6" y="728" width="6" height="16" fill="#c75c0d"/>
+<rect x="672.8" y="728" width="6" height="16" fill="#c55a0c"/>
+<rect x="678.0" y="728" width="6" height="16" fill="#c4590c"/>
+<rect x="683.2" y="728" width="6" height="16" fill="#c2570c"/>
+<rect x="688.4000000000001" y="728" width="6" height="16" fill="#c1550b"/>
+<rect x="693.6" y="728" width="6" height="16" fill="#bf530b"/>
+<rect x="698.8" y="728" width="6" height="16" fill="#be520a"/>
+<rect x="704.0" y="728" width="6" height="16" fill="#bc500a"/>
+<rect x="709.2" y="728" width="6" height="16" fill="#bb4e0a"/>
+<rect x="714.4000000000001" y="728" width="6" height="16" fill="#b94c09"/>
+<rect x="719.6" y="728" width="6" height="16" fill="#b84b09"/>
+<rect x="724.8000000000001" y="728" width="6" height="16" fill="#b64908"/>
+<rect x="730.0" y="728" width="6" height="16" fill="#b54708"/>
+<text x="210.0" y="762" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#486581">0.0</text>
+<text x="340.0" y="762" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#486581">0.25</text>
+<text x="470.0" y="762" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#486581">0.5</text>
+<text x="600.0" y="762" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#486581">0.75</text>
+<text x="730.0" y="762" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#486581">1.0</text>
+</svg>

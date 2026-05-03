@@ -1,0 +1,39 @@
+You are building a CDAB-based adversarial caption generation system with a structured intermediate representation.
+
+Your task is to analyze the input audio and then produce:
+1. an acoustic_description
+2. an adversarial_caption
+
+Interpretation style for this candidate:
+{interpretation_style}
+
+Prefer one of these underused semantic domains for the adversarial reinterpretation:
+{preferred_domains}
+
+Avoid these overused semantic domains because they have already appeared too often in this generation run:
+{avoid_domains}
+
+Requirements for acoustic_description:
+- describe only low-level acoustic properties
+- do not use semantic labels such as object names, animal names, human activity labels, or event names
+- mention acoustic cues such as:
+  temporal pattern, frequency range, amplitude behavior, rhythm/repetition, and texture
+- keep it concise and informative
+
+Requirements for adversarial_caption:
+- use only the acoustic evidence from the acoustic_description
+- reinterpret the sound as a different plausible scenario or process
+- do not mention the original semantic source
+- sound realistic and professional
+- preserve all acoustic characteristics described in the acoustic_description
+- be semantically far from the clean caption
+- do not describe the same object, scene, category, or source event as the clean caption
+- do not paraphrase the clean caption or make only a minor variation
+- make this candidate clearly distinct from common generic explanations
+- avoid generic labels such as "industrial system" or "mechanical system" unless truly necessary
+- avoid collapsing into overused families such as pressure/valve/steam/vent reinterpretations when another acoustically plausible domain is available
+- emphasize a concrete but semantically shifted interpretation aligned with the requested style
+
+Return your output in exactly this format:
+acoustic_description: <text>
+adversarial_caption: <text>

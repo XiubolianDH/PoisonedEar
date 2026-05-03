@@ -1,0 +1,515 @@
+[
+  {
+    "dataset": "clotho",
+    "class_name": "ambience_environment",
+    "is_predicted": true,
+    "prediction_method": "weighted_interpolation_from_wavcaps_and_audioset_per_class_then_rate_calibrated_to_dataset_overall",
+    "prediction_weights": {
+      "wavcaps": 0.7,
+      "audioset": 0.3
+    },
+    "source_refs": {
+      "wavcaps": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/all_classes_attack_metrics_v3/all_classes_long_table_v3.json",
+      "audioset": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/audioset_all_classes_overall_asr/audioset_all_classes_overall_asr_long.json",
+      "overall_reference": "/scratch/shuhaoz/CU_Project/PoisionedRAG/4_dataset_overrallASR_result/clotho/overall_clotho.jsonl"
+    },
+    "results": [
+      {
+        "poison_rate_pct": 1,
+        "poison_count": 0,
+        "num_queries": 2,
+        "Overall_ASR": 0.0,
+        "Overall_ASR_raw": 0.0,
+        "calibration_factor": 3.6745128078777474
+      },
+      {
+        "poison_rate_pct": 5,
+        "poison_count": 0,
+        "num_queries": 2,
+        "Overall_ASR": 0.0,
+        "Overall_ASR_raw": 0.0,
+        "calibration_factor": 1.3936639106920803
+      },
+      {
+        "poison_rate_pct": 10,
+        "poison_count": 1,
+        "num_queries": 2,
+        "Overall_ASR": 0.5186766402605647,
+        "Overall_ASR_raw": 0.44999999999999996,
+        "calibration_factor": 1.1526147561345883
+      },
+      {
+        "poison_rate_pct": 15,
+        "poison_count": 1,
+        "num_queries": 2,
+        "Overall_ASR": 0.6375444113778449,
+        "Overall_ASR_raw": 0.5499999999999999,
+        "calibration_factor": 1.1591716570506272
+      },
+      {
+        "poison_rate_pct": 20,
+        "poison_count": 2,
+        "num_queries": 2,
+        "Overall_ASR": 1.0,
+        "Overall_ASR_raw": 1.0,
+        "calibration_factor": 1.0714131030670735
+      }
+    ]
+  },
+  {
+    "dataset": "clotho",
+    "class_name": "animal_bio",
+    "is_predicted": true,
+    "prediction_method": "weighted_interpolation_from_wavcaps_and_audioset_per_class_then_rate_calibrated_to_dataset_overall",
+    "prediction_weights": {
+      "wavcaps": 0.7,
+      "audioset": 0.3
+    },
+    "source_refs": {
+      "wavcaps": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/all_classes_attack_metrics_v3/all_classes_long_table_v3.json",
+      "audioset": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/audioset_all_classes_overall_asr/audioset_all_classes_overall_asr_long.json",
+      "overall_reference": "/scratch/shuhaoz/CU_Project/PoisionedRAG/4_dataset_overrallASR_result/clotho/overall_clotho.jsonl"
+    },
+    "results": [
+      {
+        "poison_rate_pct": 1,
+        "poison_count": 1,
+        "num_queries": 14,
+        "Overall_ASR": 0.0,
+        "Overall_ASR_raw": 0.0,
+        "calibration_factor": 3.6745128078777474
+      },
+      {
+        "poison_rate_pct": 5,
+        "poison_count": 4,
+        "num_queries": 14,
+        "Overall_ASR": 0.3705879035249395,
+        "Overall_ASR_raw": 0.2659090909090909,
+        "calibration_factor": 1.3936639106920803
+      },
+      {
+        "poison_rate_pct": 10,
+        "poison_count": 8,
+        "num_queries": 14,
+        "Overall_ASR": 0.5569224935323033,
+        "Overall_ASR_raw": 0.48318181818181816,
+        "calibration_factor": 1.1526147561345883
+      },
+      {
+        "poison_rate_pct": 15,
+        "poison_count": 13,
+        "num_queries": 14,
+        "Overall_ASR": 0.4821100300915108,
+        "Overall_ASR_raw": 0.4159090909090909,
+        "calibration_factor": 1.1591716570506272
+      },
+      {
+        "poison_rate_pct": 20,
+        "poison_count": 17,
+        "num_queries": 14,
+        "Overall_ASR": 0.5819721173477967,
+        "Overall_ASR_raw": 0.5431818181818182,
+        "calibration_factor": 1.0714131030670735
+      }
+    ]
+  },
+  {
+    "dataset": "clotho",
+    "class_name": "electronic_synthetic",
+    "is_predicted": true,
+    "prediction_method": "weighted_interpolation_from_wavcaps_and_audioset_per_class_then_rate_calibrated_to_dataset_overall",
+    "prediction_weights": {
+      "wavcaps": 0.7,
+      "audioset": 0.3
+    },
+    "source_refs": {
+      "wavcaps": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/all_classes_attack_metrics_v3/all_classes_long_table_v3.json",
+      "audioset": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/audioset_all_classes_overall_asr/audioset_all_classes_overall_asr_long.json",
+      "overall_reference": "/scratch/shuhaoz/CU_Project/PoisionedRAG/4_dataset_overrallASR_result/clotho/overall_clotho.jsonl"
+    },
+    "results": [
+      {
+        "poison_rate_pct": 1,
+        "poison_count": 1,
+        "num_queries": 16,
+        "Overall_ASR": 0.0,
+        "Overall_ASR_raw": 0.0,
+        "calibration_factor": 3.6745128078777474
+      },
+      {
+        "poison_rate_pct": 5,
+        "poison_count": 6,
+        "num_queries": 16,
+        "Overall_ASR": 0.21601790615727245,
+        "Overall_ASR_raw": 0.155,
+        "calibration_factor": 1.3936639106920803
+      },
+      {
+        "poison_rate_pct": 10,
+        "poison_count": 12,
+        "num_queries": 16,
+        "Overall_ASR": 0.37459979574374114,
+        "Overall_ASR_raw": 0.32499999999999996,
+        "calibration_factor": 1.1526147561345883
+      },
+      {
+        "poison_rate_pct": 15,
+        "poison_count": 18,
+        "num_queries": 16,
+        "Overall_ASR": 0.556402395384301,
+        "Overall_ASR_raw": 0.48,
+        "calibration_factor": 1.1591716570506272
+      },
+      {
+        "poison_rate_pct": 20,
+        "poison_count": 25,
+        "num_queries": 16,
+        "Overall_ASR": 0.7928456962696344,
+        "Overall_ASR_raw": 0.74,
+        "calibration_factor": 1.0714131030670735
+      }
+    ]
+  },
+  {
+    "dataset": "clotho",
+    "class_name": "human_voice_speech",
+    "is_predicted": true,
+    "prediction_method": "weighted_interpolation_from_wavcaps_and_audioset_per_class_then_rate_calibrated_to_dataset_overall",
+    "prediction_weights": {
+      "wavcaps": 0.7,
+      "audioset": 0.3
+    },
+    "source_refs": {
+      "wavcaps": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/all_classes_attack_metrics_v3/all_classes_long_table_v3.json",
+      "audioset": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/audioset_all_classes_overall_asr/audioset_all_classes_overall_asr_long.json",
+      "overall_reference": "/scratch/shuhaoz/CU_Project/PoisionedRAG/4_dataset_overrallASR_result/clotho/overall_clotho.jsonl"
+    },
+    "results": [
+      {
+        "poison_rate_pct": 1,
+        "poison_count": 2,
+        "num_queries": 20,
+        "Overall_ASR": 0.19313239318205438,
+        "Overall_ASR_raw": 0.052559999999999996,
+        "calibration_factor": 3.6745128078777474
+      },
+      {
+        "poison_rate_pct": 5,
+        "poison_count": 10,
+        "num_queries": 20,
+        "Overall_ASR": 0.25629479317627357,
+        "Overall_ASR_raw": 0.1839,
+        "calibration_factor": 1.3936639106920803
+      },
+      {
+        "poison_rate_pct": 10,
+        "poison_count": 20,
+        "num_queries": 20,
+        "Overall_ASR": 0.4668089762345083,
+        "Overall_ASR_raw": 0.405,
+        "calibration_factor": 1.1526147561345883
+      },
+      {
+        "poison_rate_pct": 15,
+        "poison_count": 30,
+        "num_queries": 20,
+        "Overall_ASR": 0.5969734033810729,
+        "Overall_ASR_raw": 0.5149999999999999,
+        "calibration_factor": 1.1591716570506272
+      },
+      {
+        "poison_rate_pct": 20,
+        "poison_count": 40,
+        "num_queries": 20,
+        "Overall_ASR": 0.9535576617296952,
+        "Overall_ASR_raw": 0.8899999999999999,
+        "calibration_factor": 1.0714131030670735
+      }
+    ]
+  },
+  {
+    "dataset": "clotho",
+    "class_name": "impact_material",
+    "is_predicted": true,
+    "prediction_method": "weighted_interpolation_from_wavcaps_and_audioset_per_class_then_rate_calibrated_to_dataset_overall",
+    "prediction_weights": {
+      "wavcaps": 0.7,
+      "audioset": 0.3
+    },
+    "source_refs": {
+      "wavcaps": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/all_classes_attack_metrics_v3/all_classes_long_table_v3.json",
+      "audioset": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/audioset_all_classes_overall_asr/audioset_all_classes_overall_asr_long.json",
+      "overall_reference": "/scratch/shuhaoz/CU_Project/PoisionedRAG/4_dataset_overrallASR_result/clotho/overall_clotho.jsonl"
+    },
+    "results": [
+      {
+        "poison_rate_pct": 1,
+        "poison_count": 1,
+        "num_queries": 11,
+        "Overall_ASR": 0.0,
+        "Overall_ASR_raw": 0.0,
+        "calibration_factor": 3.6745128078777474
+      },
+      {
+        "poison_rate_pct": 5,
+        "poison_count": 2,
+        "num_queries": 11,
+        "Overall_ASR": 0.291597372083266,
+        "Overall_ASR_raw": 0.20923076923076922,
+        "calibration_factor": 1.3936639106920803
+      },
+      {
+        "poison_rate_pct": 10,
+        "poison_count": 5,
+        "num_queries": 11,
+        "Overall_ASR": 0.6968886140936817,
+        "Overall_ASR_raw": 0.6046153846153846,
+        "calibration_factor": 1.1526147561345883
+      },
+      {
+        "poison_rate_pct": 15,
+        "poison_count": 8,
+        "num_queries": 11,
+        "Overall_ASR": 0.916637279575419,
+        "Overall_ASR_raw": 0.7907692307692307,
+        "calibration_factor": 1.1591716570506272
+      },
+      {
+        "poison_rate_pct": 20,
+        "poison_count": 11,
+        "num_queries": 11,
+        "Overall_ASR": 0.8719654331115105,
+        "Overall_ASR_raw": 0.8138461538461538,
+        "calibration_factor": 1.0714131030670735
+      }
+    ]
+  },
+  {
+    "dataset": "clotho",
+    "class_name": "machine_mechanical",
+    "is_predicted": true,
+    "prediction_method": "weighted_interpolation_from_wavcaps_and_audioset_per_class_then_rate_calibrated_to_dataset_overall",
+    "prediction_weights": {
+      "wavcaps": 0.7,
+      "audioset": 0.3
+    },
+    "source_refs": {
+      "wavcaps": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/all_classes_attack_metrics_v3/all_classes_long_table_v3.json",
+      "audioset": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/audioset_all_classes_overall_asr/audioset_all_classes_overall_asr_long.json",
+      "overall_reference": "/scratch/shuhaoz/CU_Project/PoisionedRAG/4_dataset_overrallASR_result/clotho/overall_clotho.jsonl"
+    },
+    "results": [
+      {
+        "poison_rate_pct": 1,
+        "poison_count": 1,
+        "num_queries": 19,
+        "Overall_ASR": 0.12860794827572114,
+        "Overall_ASR_raw": 0.034999999999999996,
+        "calibration_factor": 3.6745128078777474
+      },
+      {
+        "poison_rate_pct": 5,
+        "poison_count": 5,
+        "num_queries": 19,
+        "Overall_ASR": 0.34493181789628985,
+        "Overall_ASR_raw": 0.2475,
+        "calibration_factor": 1.3936639106920803
+      },
+      {
+        "poison_rate_pct": 10,
+        "poison_count": 9,
+        "num_queries": 19,
+        "Overall_ASR": 0.5330843247122471,
+        "Overall_ASR_raw": 0.46249999999999997,
+        "calibration_factor": 1.1526147561345883
+      },
+      {
+        "poison_rate_pct": 15,
+        "poison_count": 14,
+        "num_queries": 19,
+        "Overall_ASR": 0.888215282215043,
+        "Overall_ASR_raw": 0.7662499999999999,
+        "calibration_factor": 1.1591716570506272
+      },
+      {
+        "poison_rate_pct": 20,
+        "poison_count": 19,
+        "num_queries": 19,
+        "Overall_ASR": 0.8986477401975079,
+        "Overall_ASR_raw": 0.83875,
+        "calibration_factor": 1.0714131030670735
+      }
+    ]
+  },
+  {
+    "dataset": "clotho",
+    "class_name": "music_instrument",
+    "is_predicted": true,
+    "prediction_method": "weighted_interpolation_from_wavcaps_and_audioset_per_class_then_rate_calibrated_to_dataset_overall",
+    "prediction_weights": {
+      "wavcaps": 0.7,
+      "audioset": 0.3
+    },
+    "source_refs": {
+      "wavcaps": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/all_classes_attack_metrics_v3/all_classes_long_table_v3.json",
+      "audioset": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/audioset_all_classes_overall_asr/audioset_all_classes_overall_asr_long.json",
+      "overall_reference": "/scratch/shuhaoz/CU_Project/PoisionedRAG/4_dataset_overrallASR_result/clotho/overall_clotho.jsonl"
+    },
+    "results": [
+      {
+        "poison_rate_pct": 1,
+        "poison_count": 3,
+        "num_queries": 20,
+        "Overall_ASR": 0.4960592290634958,
+        "Overall_ASR_raw": 0.13499999999999998,
+        "calibration_factor": 3.6745128078777474
+      },
+      {
+        "poison_rate_pct": 5,
+        "poison_count": 16,
+        "num_queries": 20,
+        "Overall_ASR": 0.87103994418255,
+        "Overall_ASR_raw": 0.6249999999999999,
+        "calibration_factor": 1.3936639106920803
+      },
+      {
+        "poison_rate_pct": 10,
+        "poison_count": 32,
+        "num_queries": 20,
+        "Overall_ASR": 0.8125934030748848,
+        "Overall_ASR_raw": 0.7050000000000001,
+        "calibration_factor": 1.1526147561345883
+      },
+      {
+        "poison_rate_pct": 15,
+        "poison_count": 49,
+        "num_queries": 20,
+        "Overall_ASR": 0.9621124753520205,
+        "Overall_ASR_raw": 0.83,
+        "calibration_factor": 1.1591716570506272
+      },
+      {
+        "poison_rate_pct": 20,
+        "poison_count": 65,
+        "num_queries": 20,
+        "Overall_ASR": 0.8357022203923172,
+        "Overall_ASR_raw": 0.7799999999999999,
+        "calibration_factor": 1.0714131030670735
+      }
+    ]
+  },
+  {
+    "dataset": "clotho",
+    "class_name": "vehicle_transport",
+    "is_predicted": true,
+    "prediction_method": "weighted_interpolation_from_wavcaps_and_audioset_per_class_then_rate_calibrated_to_dataset_overall",
+    "prediction_weights": {
+      "wavcaps": 0.7,
+      "audioset": 0.3
+    },
+    "source_refs": {
+      "wavcaps": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/all_classes_attack_metrics_v3/all_classes_long_table_v3.json",
+      "audioset": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/audioset_all_classes_overall_asr/audioset_all_classes_overall_asr_long.json",
+      "overall_reference": "/scratch/shuhaoz/CU_Project/PoisionedRAG/4_dataset_overrallASR_result/clotho/overall_clotho.jsonl"
+    },
+    "results": [
+      {
+        "poison_rate_pct": 1,
+        "poison_count": 1,
+        "num_queries": 20,
+        "Overall_ASR": 0.0,
+        "Overall_ASR_raw": 0.0,
+        "calibration_factor": 3.6745128078777474
+      },
+      {
+        "poison_rate_pct": 5,
+        "poison_count": 8,
+        "num_queries": 20,
+        "Overall_ASR": 0.3693209363334013,
+        "Overall_ASR_raw": 0.265,
+        "calibration_factor": 1.3936639106920803
+      },
+      {
+        "poison_rate_pct": 10,
+        "poison_count": 15,
+        "num_queries": 20,
+        "Overall_ASR": 0.7088580750227716,
+        "Overall_ASR_raw": 0.6149999999999999,
+        "calibration_factor": 1.1526147561345883
+      },
+      {
+        "poison_rate_pct": 15,
+        "poison_count": 23,
+        "num_queries": 20,
+        "Overall_ASR": 0.7650532936534139,
+        "Overall_ASR_raw": 0.6599999999999999,
+        "calibration_factor": 1.1591716570506272
+      },
+      {
+        "poison_rate_pct": 20,
+        "poison_count": 31,
+        "num_queries": 20,
+        "Overall_ASR": 0.8410592859076526,
+        "Overall_ASR_raw": 0.7849999999999999,
+        "calibration_factor": 1.0714131030670735
+      }
+    ]
+  },
+  {
+    "dataset": "clotho",
+    "class_name": "water_weather",
+    "is_predicted": true,
+    "prediction_method": "weighted_interpolation_from_wavcaps_and_audioset_per_class_then_rate_calibrated_to_dataset_overall",
+    "prediction_weights": {
+      "wavcaps": 0.7,
+      "audioset": 0.3
+    },
+    "source_refs": {
+      "wavcaps": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/all_classes_attack_metrics_v3/all_classes_long_table_v3.json",
+      "audioset": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/audioset_all_classes_overall_asr/audioset_all_classes_overall_asr_long.json",
+      "overall_reference": "/scratch/shuhaoz/CU_Project/PoisionedRAG/4_dataset_overrallASR_result/clotho/overall_clotho.jsonl"
+    },
+    "results": [
+      {
+        "poison_rate_pct": 1,
+        "poison_count": 1,
+        "num_queries": 18,
+        "Overall_ASR": 0.12860794827572114,
+        "Overall_ASR_raw": 0.034999999999999996,
+        "calibration_factor": 3.6745128078777474
+      },
+      {
+        "poison_rate_pct": 5,
+        "poison_count": 5,
+        "num_queries": 18,
+        "Overall_ASR": 0.47185478119146146,
+        "Overall_ASR_raw": 0.3385714285714286,
+        "calibration_factor": 1.3936639106920803
+      },
+      {
+        "poison_rate_pct": 10,
+        "poison_count": 10,
+        "num_queries": 18,
+        "Overall_ASR": 0.6504040409616605,
+        "Overall_ASR_raw": 0.5642857142857143,
+        "calibration_factor": 1.1526147561345883
+      },
+      {
+        "poison_rate_pct": 15,
+        "poison_count": 16,
+        "num_queries": 18,
+        "Overall_ASR": 0.9223694471102847,
+        "Overall_ASR_raw": 0.7957142857142856,
+        "calibration_factor": 1.1591716570506272
+      },
+      {
+        "poison_rate_pct": 20,
+        "poison_count": 21,
+        "num_queries": 18,
+        "Overall_ASR": 0.8379981056131752,
+        "Overall_ASR_raw": 0.782142857142857,
+        "calibration_factor": 1.0714131030670735
+      }
+    ]
+  }
+]

@@ -1,0 +1,47 @@
+{
+  "project": {
+    "name": "poisoned_rag_defense_eval_gpt_gemini_large",
+    "created_on": "2026-04-25",
+    "output_dir": "outputs"
+  },
+  "study": {
+    "defenses": ["no_defense", "paraphrasing", "perplexity_filtering"],
+    "datasets": ["wavcaps", "clotho", "audioset", "esc50"],
+    "retriever": "spectral",
+    "top_k": 5,
+    "poison_rate_pct": 15,
+    "generator_backend": "native",
+    "dataset_sample_limits": {
+      "wavcaps": 35,
+      "clotho": 500,
+      "audioset": 155,
+      "esc50": 72
+    },
+    "dataset_metadata_overrides": {
+      "wavcaps": "malicious_dataset/unified_electronic_synthetic_35/final_dataset/metadata.json",
+      "clotho": "malicious_dataset/wavcaps_clotho_esc50_to_clotho_vehicle_transport_556/final_dataset/metadata.json",
+      "audioset": "malicious_dataset/wavcaps_clotho_esc50_to_audioset_music_instrument_155/final_dataset/metadata.json",
+      "esc50": "malicious_dataset/wavcaps_clotho_esc50_to_esc50_animal_bio_72/final_dataset/metadata.json"
+    }
+  },
+  "retrieval": {
+    "similarity": "cosine",
+    "checkpoint_overrides": {}
+  },
+  "defense": {
+    "paraphrase": {
+      "backend": "rule_based",
+      "model_name": "gpt-4o-mini",
+      "api_key_env": "OPENAI_API_KEY"
+    },
+    "perplexity": {
+      "backend": "auto",
+      "model_name": "gpt2",
+      "threshold": 80.0
+    }
+  },
+  "metrics": {
+    "text_similarity_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "text_similarity_backend": "lexical"
+  }
+}

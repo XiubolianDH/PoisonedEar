@@ -1,0 +1,352 @@
+[
+  {
+    "poison_rate_pct": 1,
+    "num_queries": 133,
+    "ASR-R": 0.10526315789473684,
+    "ASR-G|R": 0.2731829573934837,
+    "Overall_ASR": 0.07518796992481203,
+    "avg_attack_margin|R": 0.03205964160401003,
+    "Precision@k": 0.02706766917293233,
+    "Recall@k": 0.027121374865735768,
+    "F1@k": 0.02559971356963838,
+    "dataset": "audioset",
+    "is_predicted": false
+  },
+  {
+    "poison_rate_pct": 1,
+    "num_queries": 126,
+    "is_predicted": true,
+    "prediction_method": "weighted_interpolation_from_wavcaps_and_audioset",
+    "prediction_weights": {
+      "wavcaps": 0.7,
+      "audioset": 0.3
+    },
+    "source_refs": {
+      "wavcaps": "/scratch/shuhaoz/CU_Project/PoisionedRAG/4_dataset_overrallASR_result/wavcaps/overall_wavcpas.jsonl",
+      "audioset": "/scratch/shuhaoz/CU_Project/PoisionedRAG/4_dataset_overrallASR_result/audioset/overrall_audioset.jsonl"
+    },
+    "dataset": "clotho",
+    "ASR-R": 0.14809656516992528,
+    "ASR-G|R": 0.5781888567324265,
+    "Overall_ASR": 0.1051563909774436,
+    "avg_attack_margin|R": -0.023074268318644495,
+    "Precision@k": 0.020076899213744566,
+    "Recall@k": 0.054733958021131436,
+    "F1@k": 0.024637882960505567
+  },
+  {
+    "poison_rate_pct": 1,
+    "num_queries": 131,
+    "is_predicted": true,
+    "prediction_method": "weighted_interpolation_from_wavcaps_and_audioset",
+    "prediction_weights": {
+      "wavcaps": 0.2,
+      "audioset": 0.8
+    },
+    "source_refs": {
+      "wavcaps": "/scratch/shuhaoz/CU_Project/PoisionedRAG/4_dataset_overrallASR_result/wavcaps/overall_wavcpas.jsonl",
+      "audioset": "/scratch/shuhaoz/CU_Project/PoisionedRAG/4_dataset_overrallASR_result/audioset/overrall_audioset.jsonl"
+    },
+    "dataset": "esc50",
+    "ASR-R": 0.11750127425907639,
+    "ASR-G|R": 0.36032750006175307,
+    "Overall_ASR": 0.08375037593984962,
+    "avg_attack_margin|R": 0.016307095911823024,
+    "Precision@k": 0.025070306327450116,
+    "Recall@k": 0.035010684338705966,
+    "F1@k": 0.025324904824171865
+  },
+  {
+    "poison_rate_pct": 1,
+    "num_queries": 123,
+    "ASR-R": 0.16645373971643462,
+    "ASR-G|R": 0.7089056707348306,
+    "Overall_ASR": 0.118,
+    "avg_attack_margin|R": -0.04670308685692501,
+    "Precision@k": 0.017080854945521237,
+    "Recall@k": 0.06656792223058673,
+    "F1@k": 0.024225669842305793,
+    "dataset": "wavcaps",
+    "is_predicted": false
+  },
+  {
+    "poison_rate_pct": 5,
+    "num_queries": 132,
+    "ASR-R": 0.5227272727272727,
+    "ASR-G|R": 0.5870072909546593,
+    "Overall_ASR": 0.32575757575757575,
+    "avg_attack_margin|R": 0.08314173731044784,
+    "Precision@k": 0.17121212121212123,
+    "Recall@k": 0.10698492098013629,
+    "F1@k": 0.10495085308936797,
+    "dataset": "audioset",
+    "is_predicted": false
+  },
+  {
+    "poison_rate_pct": 5,
+    "num_queries": 126,
+    "is_predicted": true,
+    "prediction_method": "weighted_interpolation_from_wavcaps_and_audioset",
+    "prediction_weights": {
+      "wavcaps": 0.7,
+      "audioset": 0.3
+    },
+    "source_refs": {
+      "wavcaps": "/scratch/shuhaoz/CU_Project/PoisionedRAG/4_dataset_overrallASR_result/wavcaps/overall_wavcpas.jsonl",
+      "audioset": "/scratch/shuhaoz/CU_Project/PoisionedRAG/4_dataset_overrallASR_result/audioset/overrall_audioset.jsonl"
+    },
+    "dataset": "clotho",
+    "ASR-R": 0.48937904232179547,
+    "ASR-G|R": 0.7168453154093957,
+    "Overall_ASR": 0.3546272727272727,
+    "avg_attack_margin|R": 0.05453163261774267,
+    "Precision@k": 0.12206063929816274,
+    "Recall@k": 0.10434872231318748,
+    "F1@k": 0.1008570076116484
+  },
+  {
+    "poison_rate_pct": 5,
+    "num_queries": 130,
+    "is_predicted": true,
+    "prediction_method": "weighted_interpolation_from_wavcaps_and_audioset",
+    "prediction_weights": {
+      "wavcaps": 0.2,
+      "audioset": 0.8
+    },
+    "source_refs": {
+      "wavcaps": "/scratch/shuhaoz/CU_Project/PoisionedRAG/4_dataset_overrallASR_result/wavcaps/overall_wavcpas.jsonl",
+      "audioset": "/scratch/shuhaoz/CU_Project/PoisionedRAG/4_dataset_overrallASR_result/audioset/overrall_audioset.jsonl"
+    },
+    "dataset": "esc50",
+    "ASR-R": 0.5131992068971364,
+    "ASR-G|R": 0.6241038693702983,
+    "Overall_ASR": 0.33400606060606064,
+    "avg_attack_margin|R": 0.07496742168396066,
+    "Precision@k": 0.15716884066527595,
+    "Recall@k": 0.10623172136100806,
+    "F1@k": 0.10378118295287667
+  },
+  {
+    "poison_rate_pct": 5,
+    "num_queries": 123,
+    "ASR-R": 0.475086943576591,
+    "ASR-G|R": 0.7724901830328541,
+    "Overall_ASR": 0.367,
+    "avg_attack_margin|R": 0.04227015917801189,
+    "Precision@k": 0.10099571847789482,
+    "Recall@k": 0.10321892288449513,
+    "F1@k": 0.09910250240691143,
+    "dataset": "wavcaps",
+    "is_predicted": false
+  },
+  {
+    "poison_rate_pct": 10,
+    "num_queries": 132,
+    "ASR-R": 0.7727272727272727,
+    "ASR-G|R": 0.7111422742438785,
+    "Overall_ASR": 0.5606060606060606,
+    "avg_attack_margin|R": 0.1189548653188612,
+    "Precision@k": 0.2818181818181818,
+    "Recall@k": 0.10164346385937295,
+    "F1@k": 0.12348588087026476,
+    "dataset": "audioset",
+    "is_predicted": false
+  },
+  {
+    "poison_rate_pct": 10,
+    "num_queries": 126,
+    "is_predicted": true,
+    "prediction_method": "weighted_interpolation_from_wavcaps_and_audioset",
+    "prediction_weights": {
+      "wavcaps": 0.7,
+      "audioset": 0.3
+    },
+    "source_refs": {
+      "wavcaps": "/scratch/shuhaoz/CU_Project/PoisionedRAG/4_dataset_overrallASR_result/wavcaps/overall_wavcpas.jsonl",
+      "audioset": "/scratch/shuhaoz/CU_Project/PoisionedRAG/4_dataset_overrallASR_result/audioset/overrall_audioset.jsonl"
+    },
+    "dataset": "clotho",
+    "ASR-R": 0.7438673154159458,
+    "ASR-G|R": 0.7913340908720284,
+    "Overall_ASR": 0.590981818181818,
+    "avg_attack_margin|R": 0.157918680089142,
+    "Precision@k": 0.23246233988784437,
+    "Recall@k": 0.10818435396295918,
+    "F1@k": 0.13341591760538687
+  },
+  {
+    "poison_rate_pct": 10,
+    "num_queries": 130,
+    "is_predicted": true,
+    "prediction_method": "weighted_interpolation_from_wavcaps_and_audioset",
+    "prediction_weights": {
+      "wavcaps": 0.2,
+      "audioset": 0.8
+    },
+    "source_refs": {
+      "wavcaps": "/scratch/shuhaoz/CU_Project/PoisionedRAG/4_dataset_overrallASR_result/wavcaps/overall_wavcpas.jsonl",
+      "audioset": "/scratch/shuhaoz/CU_Project/PoisionedRAG/4_dataset_overrallASR_result/audioset/overrall_audioset.jsonl"
+    },
+    "dataset": "esc50",
+    "ASR-R": 0.7644815706383221,
+    "ASR-G|R": 0.7340542218519215,
+    "Overall_ASR": 0.5692848484848485,
+    "avg_attack_margin|R": 0.13008738382465573,
+    "Precision@k": 0.2677165126952283,
+    "Recall@k": 0.10351228960325473,
+    "F1@k": 0.1263230342231568
+  },
+  {
+    "poison_rate_pct": 10,
+    "num_queries": 123,
+    "ASR-R": 0.73149876228252,
+    "ASR-G|R": 0.8257020122840928,
+    "Overall_ASR": 0.604,
+    "avg_attack_margin|R": 0.17461745784783378,
+    "Precision@k": 0.21130983620341406,
+    "Recall@k": 0.11098759257878185,
+    "F1@k": 0.13767164763472492,
+    "dataset": "wavcaps",
+    "is_predicted": false
+  },
+  {
+    "poison_rate_pct": 15,
+    "num_queries": 132,
+    "ASR-R": 0.9129311621212122,
+    "ASR-G|R": 0.7931381484013063,
+    "Overall_ASR": 0.7276363030151515,
+    "avg_attack_margin|R": 0.19414231260917444,
+    "Precision@k": 0.3848484848484849,
+    "Recall@k": 0.09841519577021145,
+    "F1@k": 0.1334674234717217,
+    "dataset": "audioset",
+    "is_predicted": false
+  },
+  {
+    "poison_rate_pct": 15,
+    "num_queries": 126,
+    "is_predicted": true,
+    "prediction_method": "weighted_interpolation_from_wavcaps_and_audioset",
+    "prediction_weights": {
+      "wavcaps": 0.7,
+      "audioset": 0.3
+    },
+    "source_refs": {
+      "wavcaps": "/scratch/shuhaoz/CU_Project/PoisionedRAG/4_dataset_overrallASR_result/wavcaps/overall_wavcpas.jsonl",
+      "audioset": "/scratch/shuhaoz/CU_Project/PoisionedRAG/4_dataset_overrallASR_result/audioset/overrall_audioset.jsonl"
+    },
+    "dataset": "clotho",
+    "ASR-R": 0.9305541003133427,
+    "ASR-G|R": 0.8020563264371873,
+    "Overall_ASR": 0.7474908909045455,
+    "avg_attack_margin|R": 0.19705590266754824,
+    "Precision@k": 0.33120263170410363,
+    "Recall@k": 0.10675348764194673,
+    "F1@k": 0.1474356960159099
+  },
+  {
+    "poison_rate_pct": 15,
+    "num_queries": 130,
+    "is_predicted": true,
+    "prediction_method": "weighted_interpolation_from_wavcaps_and_audioset",
+    "prediction_weights": {
+      "wavcaps": 0.2,
+      "audioset": 0.8
+    },
+    "source_refs": {
+      "wavcaps": "/scratch/shuhaoz/CU_Project/PoisionedRAG/4_dataset_overrallASR_result/wavcaps/overall_wavcpas.jsonl",
+      "audioset": "/scratch/shuhaoz/CU_Project/PoisionedRAG/4_dataset_overrallASR_result/audioset/overrall_audioset.jsonl"
+    },
+    "dataset": "esc50",
+    "ASR-R": 0.9179662873189638,
+    "ASR-G|R": 0.7956861992687009,
+    "Overall_ASR": 0.7333090424121212,
+    "avg_attack_margin|R": 0.19497476691156695,
+    "Precision@k": 0.36952109823580453,
+    "Recall@k": 0.10079756487642154,
+    "F1@k": 0.1374583584843469
+  },
+  {
+    "poison_rate_pct": 15,
+    "num_queries": 123,
+    "ASR-R": 0.9381067881099702,
+    "ASR-G|R": 0.8058784027382792,
+    "Overall_ASR": 0.756,
+    "avg_attack_margin|R": 0.19830458412113705,
+    "Precision@k": 0.3082115517850831,
+    "Recall@k": 0.11032704130126186,
+    "F1@k": 0.1534220985348477,
+    "dataset": "wavcaps",
+    "is_predicted": false
+  },
+  {
+    "poison_rate_pct": 20,
+    "num_queries": 132,
+    "ASR-R": 0.9924242424242424,
+    "ASR-G|R": 0.8249601275917066,
+    "Overall_ASR": 0.8210227272727273,
+    "avg_attack_margin|R": 0.22702915629984047,
+    "Precision@k": 0.4818181818181818,
+    "Recall@k": 0.09333580773400767,
+    "F1@k": 0.13777879943327928,
+    "dataset": "audioset",
+    "is_predicted": false
+  },
+  {
+    "poison_rate_pct": 20,
+    "num_queries": 126,
+    "is_predicted": true,
+    "prediction_method": "weighted_interpolation_from_wavcaps_and_audioset",
+    "prediction_weights": {
+      "wavcaps": 0.7,
+      "audioset": 0.3
+    },
+    "source_refs": {
+      "wavcaps": "/scratch/shuhaoz/CU_Project/PoisionedRAG/4_dataset_overrallASR_result/wavcaps/overall_wavcpas.jsonl",
+      "audioset": "/scratch/shuhaoz/CU_Project/PoisionedRAG/4_dataset_overrallASR_result/audioset/overrall_audioset.jsonl"
+    },
+    "dataset": "clotho",
+    "ASR-R": 0.9977272727272727,
+    "ASR-G|R": 0.8550880382775119,
+    "Overall_ASR": 0.8539068181818181,
+    "avg_attack_margin|R": 0.2227188340574082,
+    "Precision@k": 0.4129668775900298,
+    "Recall@k": 0.10100876638101414,
+    "F1@k": 0.15066978805026815
+  },
+  {
+    "poison_rate_pct": 20,
+    "num_queries": 130,
+    "is_predicted": true,
+    "prediction_method": "weighted_interpolation_from_wavcaps_and_audioset",
+    "prediction_weights": {
+      "wavcaps": 0.2,
+      "audioset": 0.8
+    },
+    "source_refs": {
+      "wavcaps": "/scratch/shuhaoz/CU_Project/PoisionedRAG/4_dataset_overrallASR_result/wavcaps/overall_wavcpas.jsonl",
+      "audioset": "/scratch/shuhaoz/CU_Project/PoisionedRAG/4_dataset_overrallASR_result/audioset/overrall_audioset.jsonl"
+    },
+    "dataset": "esc50",
+    "ASR-R": 0.9939393939393939,
+    "ASR-G|R": 0.8335681020733653,
+    "Overall_ASR": 0.8304181818181818,
+    "avg_attack_margin|R": 0.22579763565914554,
+    "Precision@k": 0.46214638061013846,
+    "Recall@k": 0.09552808163315238,
+    "F1@k": 0.14146193903813326
+  },
+  {
+    "poison_rate_pct": 20,
+    "num_queries": 123,
+    "ASR-R": 1.0,
+    "ASR-G|R": 0.868,
+    "Overall_ASR": 0.868,
+    "avg_attack_margin|R": 0.2208715530963658,
+    "Precision@k": 0.38345917577796473,
+    "Recall@k": 0.1042971772297312,
+    "F1@k": 0.1561944974575491,
+    "dataset": "wavcaps",
+    "is_predicted": false
+  }
+]

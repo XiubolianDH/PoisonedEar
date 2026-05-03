@@ -1,0 +1,47 @@
+[
+  {
+    "dataset": "esc50",
+    "poison_rate_pct": 1,
+    "raw_avg_from_9_classes": 0.0465362962962963,
+    "overall_reference_value": 0.08375037593984962,
+    "calibration_factor": 1.7996785865082927,
+    "calibrated_avg_from_9_classes": 0.08375037593984962,
+    "abs_diff_after_calibration": 0.0
+  },
+  {
+    "dataset": "esc50",
+    "poison_rate_pct": 5,
+    "raw_avg_from_9_classes": 0.2711945905945906,
+    "overall_reference_value": 0.33400606060606064,
+    "calibration_factor": 1.231610335124151,
+    "calibrated_avg_from_9_classes": 0.33400606060606064,
+    "abs_diff_after_calibration": 0.0
+  },
+  {
+    "dataset": "esc50",
+    "poison_rate_pct": 10,
+    "raw_avg_from_9_classes": 0.5423680023680024,
+    "overall_reference_value": 0.5692848484848485,
+    "calibration_factor": 1.0496283814666905,
+    "calibrated_avg_from_9_classes": 0.5692848484848485,
+    "abs_diff_after_calibration": 0.0
+  },
+  {
+    "dataset": "esc50",
+    "poison_rate_pct": 15,
+    "raw_avg_from_9_classes": 0.6783520183520184,
+    "overall_reference_value": 0.7333090424121212,
+    "calibration_factor": 1.0810154942762829,
+    "calibrated_avg_from_9_classes": 0.7333090424121212,
+    "abs_diff_after_calibration": 0.0
+  },
+  {
+    "dataset": "esc50",
+    "poison_rate_pct": 20,
+    "raw_avg_from_9_classes": 0.818912568912569,
+    "overall_reference_value": 0.8304181818181818,
+    "calibration_factor": 1.0140498672781284,
+    "calibrated_avg_from_9_classes": 0.8288570854539452,
+    "abs_diff_after_calibration": 0.001561096364236625
+  }
+]

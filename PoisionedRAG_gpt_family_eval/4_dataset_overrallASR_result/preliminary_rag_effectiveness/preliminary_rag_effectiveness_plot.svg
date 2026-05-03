@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="520" viewBox="0 0 980 520">
+<rect width="100%" height="100%" fill="#fffaf5"/>
+<text x="36" y="38" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" fill="#7c2d12">Preliminary Clean Baseline: With RAG vs Without RAG</text>
+<text x="36" y="62" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#9a3412">WavCaps clean evaluation. Left: token-overlap accuracy. Right: CLAP semantic response alignment.</text>
+<rect x="36" y="96" width="420" height="330" rx="18" fill="#ffffff" stroke="#fed7aa"/>
+<text x="54" y="124" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#7c2d12">Accuracy</text>
+<rect x="91" y="136" width="340" height="245" fill="none" stroke="#fdba74"/>
+<line x1="91" y1="381.0" x2="431" y2="381.0" stroke="#ffedd5" />
+<text x="83" y="385.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#9a3412">0.00</text>
+<line x1="91" y1="332.0" x2="431" y2="332.0" stroke="#ffedd5" />
+<text x="83" y="336.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#9a3412">0.03</text>
+<line x1="91" y1="283.0" x2="431" y2="283.0" stroke="#ffedd5" />
+<text x="83" y="287.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#9a3412">0.06</text>
+<line x1="91" y1="234.0" x2="431" y2="234.0" stroke="#ffedd5" />
+<text x="83" y="238.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#9a3412">0.09</text>
+<line x1="91" y1="185.0" x2="431" y2="185.0" stroke="#ffedd5" />
+<text x="83" y="189.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#9a3412">0.12</text>
+<line x1="91" y1="136.0" x2="431" y2="136.0" stroke="#ffedd5" />
+<text x="83" y="140.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#9a3412">0.15</text>
+<line x1="91.0" y1="136" x2="91.0" y2="381" stroke="#fff7ed" />
+<text x="91.0" y="403" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#9a3412">k=1</text>
+<line x1="204.33333333333331" y1="136" x2="204.33333333333331" y2="381" stroke="#fff7ed" />
+<text x="204.33333333333331" y="403" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#9a3412">k=5</text>
+<line x1="317.66666666666663" y1="136" x2="317.66666666666663" y2="381" stroke="#fff7ed" />
+<text x="317.66666666666663" y="403" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#9a3412">k=10</text>
+<line x1="431.0" y1="136" x2="431.0" y2="381" stroke="#fff7ed" />
+<text x="431.0" y="403" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#9a3412">k=20</text>
+<polyline fill="none" stroke="#ea580c" stroke-width="3" points="91.00,330.42 162.58,342.32 252.05,338.92 431.00,338.07" />
+<polyline fill="none" stroke="#f59e0b" stroke-width="3" points="91.00,375.90 162.58,375.90 252.05,375.90 431.00,375.90" />
+<circle cx="91.0" cy="330.41880638445525" r="4.5" fill="#ea580c"/>
+<text x="91.0" y="320.41880638445525" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#7c2d12">0.114</text>
+<circle cx="162.57894736842104" cy="342.3202637057599" r="4.5" fill="#ea580c"/>
+<text x="162.57894736842104" y="332.3202637057599" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#7c2d12">0.087</text>
+<circle cx="252.05263157894737" cy="338.91984732824426" r="4.5" fill="#ea580c"/>
+<text x="252.05263157894737" y="328.91984732824426" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#7c2d12">0.094</text>
+<circle cx="431.0" cy="338.0697432338654" r="4.5" fill="#ea580c"/>
+<text x="431.0" y="328.0697432338654" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#7c2d12">0.096</text>
+<circle cx="91.0" cy="375.89937543372656" r="4.5" fill="#f59e0b"/>
+<text x="91.0" y="393.89937543372656" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#9a3412">0.011</text>
+<circle cx="162.57894736842104" cy="375.89937543372656" r="4.5" fill="#f59e0b"/>
+<text x="162.57894736842104" y="393.89937543372656" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#9a3412">0.011</text>
+<circle cx="252.05263157894737" cy="375.89937543372656" r="4.5" fill="#f59e0b"/>
+<text x="252.05263157894737" y="393.89937543372656" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#9a3412">0.011</text>
+<circle cx="431.0" cy="375.89937543372656" r="4.5" fill="#f59e0b"/>
+<text x="431.0" y="393.89937543372656" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#9a3412">0.011</text>
+<rect x="510" y="96" width="420" height="330" rx="18" fill="#ffffff" stroke="#fed7aa"/>
+<text x="528" y="124" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="#7c2d12">CLAP Alignment</text>
+<rect x="565" y="136" width="340" height="245" fill="none" stroke="#fdba74"/>
+<line x1="565" y1="381.0" x2="905" y2="381.0" stroke="#ffedd5" />
+<text x="557" y="385.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#9a3412">0.00</text>
+<line x1="565" y1="332.0" x2="905" y2="332.0" stroke="#ffedd5" />
+<text x="557" y="336.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#9a3412">0.11</text>
+<line x1="565" y1="283.0" x2="905" y2="283.0" stroke="#ffedd5" />
+<text x="557" y="287.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#9a3412">0.22</text>
+<line x1="565" y1="234.0" x2="905" y2="234.0" stroke="#ffedd5" />
+<text x="557" y="238.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#9a3412">0.33</text>
+<line x1="565" y1="185.0" x2="905" y2="185.0" stroke="#ffedd5" />
+<text x="557" y="189.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#9a3412">0.44</text>
+<line x1="565" y1="136.0" x2="905" y2="136.0" stroke="#ffedd5" />
+<text x="557" y="140.0" text-anchor="end" font-family="Arial, Helvetica, sans-serif" font-size="11" fill="#9a3412">0.55</text>
+<line x1="565.0" y1="136" x2="565.0" y2="381" stroke="#fff7ed" />
+<text x="565.0" y="403" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#9a3412">k=1</text>
+<line x1="678.3333333333334" y1="136" x2="678.3333333333334" y2="381" stroke="#fff7ed" />
+<text x="678.3333333333334" y="403" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#9a3412">k=5</text>
+<line x1="791.6666666666666" y1="136" x2="791.6666666666666" y2="381" stroke="#fff7ed" />
+<text x="791.6666666666666" y="403" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#9a3412">k=10</text>
+<line x1="905.0" y1="136" x2="905.0" y2="381" stroke="#fff7ed" />
+<text x="905.0" y="403" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#9a3412">k=20</text>
+<polyline fill="none" stroke="#ea580c" stroke-width="3" points="565.00,164.06 636.58,182.69 726.05,184.37 905.00,184.89" />
+<polyline fill="none" stroke="#f59e0b" stroke-width="3" points="565.00,202.59 636.58,202.59 726.05,202.59 905.00,202.59" />
+<circle cx="565.0" cy="164.06292270124914" r="4.5" fill="#ea580c"/>
+<text x="565.0" y="154.06292270124914" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#7c2d12">0.487</text>
+<circle cx="636.578947368421" cy="182.68909700728665" r="4.5" fill="#ea580c"/>
+<text x="636.578947368421" y="172.68909700728665" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#7c2d12">0.445</text>
+<circle cx="726.0526315789474" cy="184.36674938410826" r="4.5" fill="#ea580c"/>
+<text x="726.0526315789474" y="174.36674938410826" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#7c2d12">0.441</text>
+<circle cx="905.0" cy="184.88845359125608" r="4.5" fill="#ea580c"/>
+<text x="905.0" y="174.88845359125608" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#7c2d12">0.440</text>
+<circle cx="565.0" cy="202.58889599236642" r="4.5" fill="#f59e0b"/>
+<text x="565.0" y="220.58889599236642" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#9a3412">0.401</text>
+<circle cx="636.578947368421" cy="202.58889599236642" r="4.5" fill="#f59e0b"/>
+<text x="636.578947368421" y="220.58889599236642" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#9a3412">0.401</text>
+<circle cx="726.0526315789474" cy="202.58889599236642" r="4.5" fill="#f59e0b"/>
+<text x="726.0526315789474" y="220.58889599236642" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#9a3412">0.401</text>
+<circle cx="905.0" cy="202.58889599236642" r="4.5" fill="#f59e0b"/>
+<text x="905.0" y="220.58889599236642" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="10" fill="#9a3412">0.401</text>
+<line x1="360" y1="468" x2="390" y2="468" stroke="#ea580c" stroke-width="3"/>
+<text x="398" y="472" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#7c2d12">With RAG</text>
+<line x1="500" y1="468" x2="530" y2="468" stroke="#f59e0b" stroke-width="3"/>
+<text x="538" y="472" font-family="Arial, Helvetica, sans-serif" font-size="12" fill="#7c2d12">Without RAG</text>
+<text x="36" y="500" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#7c2d12">Mean lift: accuracy +754.2% relative, CLAP alignment +13.2% relative.</text>
+</svg>

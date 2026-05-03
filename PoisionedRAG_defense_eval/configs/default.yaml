@@ -1,0 +1,35 @@
+{
+  "project": {
+    "name": "poisoned_rag_defense_eval",
+    "created_on": "2026-04-24",
+    "output_dir": "outputs"
+  },
+  "study": {
+    "defenses": ["no_defense", "paraphrasing", "perplexity_filtering"],
+    "datasets": ["wavcaps", "clotho", "audioset", "esc50"],
+    "retriever": "clap",
+    "top_k": 5,
+    "poison_rate_pct": 15,
+    "generator_backend": "native"
+  },
+  "retrieval": {
+    "similarity": "cosine",
+    "checkpoint_overrides": {}
+  },
+  "defense": {
+    "paraphrase": {
+      "backend": "rule_based",
+      "model_name": "gpt-4o-mini",
+      "api_key_env": "OPENAI_API_KEY"
+    },
+    "perplexity": {
+      "backend": "auto",
+      "model_name": "gpt2",
+      "threshold": 80.0
+    }
+  },
+  "metrics": {
+    "text_similarity_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "text_similarity_backend": "auto"
+  }
+}

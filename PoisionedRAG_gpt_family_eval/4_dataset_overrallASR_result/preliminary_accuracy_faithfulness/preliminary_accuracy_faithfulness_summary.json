@@ -1,0 +1,34 @@
+{
+  "task": "preliminary_accuracy_and_faithfulness_bar",
+  "dataset": "wavcaps_freesound",
+  "source_file": "/scratch/shuhaoz/CU_Project/PoisionedRAG/4_dataset_overrallASR_result/preliminary_rag_effectiveness/preliminary_rag_effectiveness_summary.json",
+  "metrics": {
+    "accuracy_correctness": {
+      "with_rag": 0.09780534351145038,
+      "without_rag": 0.011450381679389313,
+      "absolute_lift": 0.08635496183206107,
+      "relative_lift": 7.541666666666666
+    },
+    "faithfulness_proxy": {
+      "with_rag": 0.45346533420801527,
+      "without_rag": 0.40051472328244275,
+      "absolute_lift": 0.05295061092557252,
+      "relative_lift": 0.13220640302961292
+    }
+  },
+  "interpretation": {
+    "accuracy_correctness": "Token-overlap correctness against ground truth.",
+    "faithfulness_proxy": "We use CLAP response alignment as a practical proxy for answer faithfulness / semantic grounding. Strict context-faithfulness is undefined for no-RAG because no retrieved context is provided."
+  },
+  "recommended_reporting": {
+    "no_rag_accuracy_percent": 1.15,
+    "no_rag_faithfulness_proxy_percent": 40.05,
+    "with_rag_accuracy_percent": 9.78,
+    "with_rag_faithfulness_proxy_percent": 45.35
+  },
+  "notes": [
+    "If the paper wants strict context-based faithfulness, do not assign a no-RAG value; mark it as N/A.",
+    "If the paper wants a visually comparable bar chart, use CLAP response alignment as a faithfulness proxy for both settings.",
+    "Existing data suggest no-RAG correctness is about 1.15%, while no-RAG faithfulness proxy is about 40.05%."
+  ]
+}

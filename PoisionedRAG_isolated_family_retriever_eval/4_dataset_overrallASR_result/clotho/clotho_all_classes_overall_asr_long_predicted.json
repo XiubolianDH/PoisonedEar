@@ -1,0 +1,812 @@
+[
+  {
+    "dataset": "clotho",
+    "class_name": "ambience_environment",
+    "poison_rate_pct": 1,
+    "poison_count": 0,
+    "num_queries": 2,
+    "Overall_ASR": 0.0,
+    "is_predicted": true,
+    "prediction_method": "weighted_interpolation_from_wavcaps_and_audioset_per_class",
+    "prediction_weights": {
+      "wavcaps": 0.7,
+      "audioset": 0.3
+    },
+    "source_refs": {
+      "wavcaps": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/all_classes_attack_metrics_v3/all_classes_long_table_v3.json",
+      "audioset": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/audioset_all_classes_overall_asr/audioset_all_classes_overall_asr_long.json"
+    }
+  },
+  {
+    "dataset": "clotho",
+    "class_name": "ambience_environment",
+    "poison_rate_pct": 5,
+    "poison_count": 0,
+    "num_queries": 2,
+    "Overall_ASR": 0.0,
+    "is_predicted": true,
+    "prediction_method": "weighted_interpolation_from_wavcaps_and_audioset_per_class",
+    "prediction_weights": {
+      "wavcaps": 0.7,
+      "audioset": 0.3
+    },
+    "source_refs": {
+      "wavcaps": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/all_classes_attack_metrics_v3/all_classes_long_table_v3.json",
+      "audioset": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/audioset_all_classes_overall_asr/audioset_all_classes_overall_asr_long.json"
+    }
+  },
+  {
+    "dataset": "clotho",
+    "class_name": "ambience_environment",
+    "poison_rate_pct": 10,
+    "poison_count": 1,
+    "num_queries": 2,
+    "Overall_ASR": 0.44999999999999996,
+    "is_predicted": true,
+    "prediction_method": "weighted_interpolation_from_wavcaps_and_audioset_per_class",
+    "prediction_weights": {
+      "wavcaps": 0.7,
+      "audioset": 0.3
+    },
+    "source_refs": {
+      "wavcaps": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/all_classes_attack_metrics_v3/all_classes_long_table_v3.json",
+      "audioset": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/audioset_all_classes_overall_asr/audioset_all_classes_overall_asr_long.json"
+    }
+  },
+  {
+    "dataset": "clotho",
+    "class_name": "ambience_environment",
+    "poison_rate_pct": 15,
+    "poison_count": 1,
+    "num_queries": 2,
+    "Overall_ASR": 0.5499999999999999,
+    "is_predicted": true,
+    "prediction_method": "weighted_interpolation_from_wavcaps_and_audioset_per_class",
+    "prediction_weights": {
+      "wavcaps": 0.7,
+      "audioset": 0.3
+    },
+    "source_refs": {
+      "wavcaps": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/all_classes_attack_metrics_v3/all_classes_long_table_v3.json",
+      "audioset": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/audioset_all_classes_overall_asr/audioset_all_classes_overall_asr_long.json"
+    }
+  },
+  {
+    "dataset": "clotho",
+    "class_name": "ambience_environment",
+    "poison_rate_pct": 20,
+    "poison_count": 2,
+    "num_queries": 2,
+    "Overall_ASR": 1.0,
+    "is_predicted": true,
+    "prediction_method": "weighted_interpolation_from_wavcaps_and_audioset_per_class",
+    "prediction_weights": {
+      "wavcaps": 0.7,
+      "audioset": 0.3
+    },
+    "source_refs": {
+      "wavcaps": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/all_classes_attack_metrics_v3/all_classes_long_table_v3.json",
+      "audioset": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/audioset_all_classes_overall_asr/audioset_all_classes_overall_asr_long.json"
+    }
+  },
+  {
+    "dataset": "clotho",
+    "class_name": "animal_bio",
+    "poison_rate_pct": 1,
+    "poison_count": 1,
+    "num_queries": 14,
+    "Overall_ASR": 0.0,
+    "is_predicted": true,
+    "prediction_method": "weighted_interpolation_from_wavcaps_and_audioset_per_class",
+    "prediction_weights": {
+      "wavcaps": 0.7,
+      "audioset": 0.3
+    },
+    "source_refs": {
+      "wavcaps": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/all_classes_attack_metrics_v3/all_classes_long_table_v3.json",
+      "audioset": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/audioset_all_classes_overall_asr/audioset_all_classes_overall_asr_long.json"
+    }
+  },
+  {
+    "dataset": "clotho",
+    "class_name": "animal_bio",
+    "poison_rate_pct": 5,
+    "poison_count": 4,
+    "num_queries": 14,
+    "Overall_ASR": 0.2659090909090909,
+    "is_predicted": true,
+    "prediction_method": "weighted_interpolation_from_wavcaps_and_audioset_per_class",
+    "prediction_weights": {
+      "wavcaps": 0.7,
+      "audioset": 0.3
+    },
+    "source_refs": {
+      "wavcaps": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/all_classes_attack_metrics_v3/all_classes_long_table_v3.json",
+      "audioset": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/audioset_all_classes_overall_asr/audioset_all_classes_overall_asr_long.json"
+    }
+  },
+  {
+    "dataset": "clotho",
+    "class_name": "animal_bio",
+    "poison_rate_pct": 10,
+    "poison_count": 8,
+    "num_queries": 14,
+    "Overall_ASR": 0.48318181818181816,
+    "is_predicted": true,
+    "prediction_method": "weighted_interpolation_from_wavcaps_and_audioset_per_class",
+    "prediction_weights": {
+      "wavcaps": 0.7,
+      "audioset": 0.3
+    },
+    "source_refs": {
+      "wavcaps": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/all_classes_attack_metrics_v3/all_classes_long_table_v3.json",
+      "audioset": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/audioset_all_classes_overall_asr/audioset_all_classes_overall_asr_long.json"
+    }
+  },
+  {
+    "dataset": "clotho",
+    "class_name": "animal_bio",
+    "poison_rate_pct": 15,
+    "poison_count": 13,
+    "num_queries": 14,
+    "Overall_ASR": 0.4159090909090909,
+    "is_predicted": true,
+    "prediction_method": "weighted_interpolation_from_wavcaps_and_audioset_per_class",
+    "prediction_weights": {
+      "wavcaps": 0.7,
+      "audioset": 0.3
+    },
+    "source_refs": {
+      "wavcaps": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/all_classes_attack_metrics_v3/all_classes_long_table_v3.json",
+      "audioset": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/audioset_all_classes_overall_asr/audioset_all_classes_overall_asr_long.json"
+    }
+  },
+  {
+    "dataset": "clotho",
+    "class_name": "animal_bio",
+    "poison_rate_pct": 20,
+    "poison_count": 17,
+    "num_queries": 14,
+    "Overall_ASR": 0.5431818181818182,
+    "is_predicted": true,
+    "prediction_method": "weighted_interpolation_from_wavcaps_and_audioset_per_class",
+    "prediction_weights": {
+      "wavcaps": 0.7,
+      "audioset": 0.3
+    },
+    "source_refs": {
+      "wavcaps": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/all_classes_attack_metrics_v3/all_classes_long_table_v3.json",
+      "audioset": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/audioset_all_classes_overall_asr/audioset_all_classes_overall_asr_long.json"
+    }
+  },
+  {
+    "dataset": "clotho",
+    "class_name": "electronic_synthetic",
+    "poison_rate_pct": 1,
+    "poison_count": 1,
+    "num_queries": 16,
+    "Overall_ASR": 0.0,
+    "is_predicted": true,
+    "prediction_method": "weighted_interpolation_from_wavcaps_and_audioset_per_class",
+    "prediction_weights": {
+      "wavcaps": 0.7,
+      "audioset": 0.3
+    },
+    "source_refs": {
+      "wavcaps": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/all_classes_attack_metrics_v3/all_classes_long_table_v3.json",
+      "audioset": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/audioset_all_classes_overall_asr/audioset_all_classes_overall_asr_long.json"
+    }
+  },
+  {
+    "dataset": "clotho",
+    "class_name": "electronic_synthetic",
+    "poison_rate_pct": 5,
+    "poison_count": 6,
+    "num_queries": 16,
+    "Overall_ASR": 0.155,
+    "is_predicted": true,
+    "prediction_method": "weighted_interpolation_from_wavcaps_and_audioset_per_class",
+    "prediction_weights": {
+      "wavcaps": 0.7,
+      "audioset": 0.3
+    },
+    "source_refs": {
+      "wavcaps": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/all_classes_attack_metrics_v3/all_classes_long_table_v3.json",
+      "audioset": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/audioset_all_classes_overall_asr/audioset_all_classes_overall_asr_long.json"
+    }
+  },
+  {
+    "dataset": "clotho",
+    "class_name": "electronic_synthetic",
+    "poison_rate_pct": 10,
+    "poison_count": 12,
+    "num_queries": 16,
+    "Overall_ASR": 0.32499999999999996,
+    "is_predicted": true,
+    "prediction_method": "weighted_interpolation_from_wavcaps_and_audioset_per_class",
+    "prediction_weights": {
+      "wavcaps": 0.7,
+      "audioset": 0.3
+    },
+    "source_refs": {
+      "wavcaps": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/all_classes_attack_metrics_v3/all_classes_long_table_v3.json",
+      "audioset": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/audioset_all_classes_overall_asr/audioset_all_classes_overall_asr_long.json"
+    }
+  },
+  {
+    "dataset": "clotho",
+    "class_name": "electronic_synthetic",
+    "poison_rate_pct": 15,
+    "poison_count": 18,
+    "num_queries": 16,
+    "Overall_ASR": 0.48,
+    "is_predicted": true,
+    "prediction_method": "weighted_interpolation_from_wavcaps_and_audioset_per_class",
+    "prediction_weights": {
+      "wavcaps": 0.7,
+      "audioset": 0.3
+    },
+    "source_refs": {
+      "wavcaps": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/all_classes_attack_metrics_v3/all_classes_long_table_v3.json",
+      "audioset": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/audioset_all_classes_overall_asr/audioset_all_classes_overall_asr_long.json"
+    }
+  },
+  {
+    "dataset": "clotho",
+    "class_name": "electronic_synthetic",
+    "poison_rate_pct": 20,
+    "poison_count": 25,
+    "num_queries": 16,
+    "Overall_ASR": 0.74,
+    "is_predicted": true,
+    "prediction_method": "weighted_interpolation_from_wavcaps_and_audioset_per_class",
+    "prediction_weights": {
+      "wavcaps": 0.7,
+      "audioset": 0.3
+    },
+    "source_refs": {
+      "wavcaps": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/all_classes_attack_metrics_v3/all_classes_long_table_v3.json",
+      "audioset": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/audioset_all_classes_overall_asr/audioset_all_classes_overall_asr_long.json"
+    }
+  },
+  {
+    "dataset": "clotho",
+    "class_name": "human_voice_speech",
+    "poison_rate_pct": 1,
+    "poison_count": 2,
+    "num_queries": 20,
+    "Overall_ASR": 0.052559999999999996,
+    "is_predicted": true,
+    "prediction_method": "weighted_interpolation_from_wavcaps_and_audioset_per_class",
+    "prediction_weights": {
+      "wavcaps": 0.7,
+      "audioset": 0.3
+    },
+    "source_refs": {
+      "wavcaps": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/all_classes_attack_metrics_v3/all_classes_long_table_v3.json",
+      "audioset": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/audioset_all_classes_overall_asr/audioset_all_classes_overall_asr_long.json"
+    }
+  },
+  {
+    "dataset": "clotho",
+    "class_name": "human_voice_speech",
+    "poison_rate_pct": 5,
+    "poison_count": 10,
+    "num_queries": 20,
+    "Overall_ASR": 0.1839,
+    "is_predicted": true,
+    "prediction_method": "weighted_interpolation_from_wavcaps_and_audioset_per_class",
+    "prediction_weights": {
+      "wavcaps": 0.7,
+      "audioset": 0.3
+    },
+    "source_refs": {
+      "wavcaps": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/all_classes_attack_metrics_v3/all_classes_long_table_v3.json",
+      "audioset": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/audioset_all_classes_overall_asr/audioset_all_classes_overall_asr_long.json"
+    }
+  },
+  {
+    "dataset": "clotho",
+    "class_name": "human_voice_speech",
+    "poison_rate_pct": 10,
+    "poison_count": 20,
+    "num_queries": 20,
+    "Overall_ASR": 0.405,
+    "is_predicted": true,
+    "prediction_method": "weighted_interpolation_from_wavcaps_and_audioset_per_class",
+    "prediction_weights": {
+      "wavcaps": 0.7,
+      "audioset": 0.3
+    },
+    "source_refs": {
+      "wavcaps": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/all_classes_attack_metrics_v3/all_classes_long_table_v3.json",
+      "audioset": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/audioset_all_classes_overall_asr/audioset_all_classes_overall_asr_long.json"
+    }
+  },
+  {
+    "dataset": "clotho",
+    "class_name": "human_voice_speech",
+    "poison_rate_pct": 15,
+    "poison_count": 30,
+    "num_queries": 20,
+    "Overall_ASR": 0.5149999999999999,
+    "is_predicted": true,
+    "prediction_method": "weighted_interpolation_from_wavcaps_and_audioset_per_class",
+    "prediction_weights": {
+      "wavcaps": 0.7,
+      "audioset": 0.3
+    },
+    "source_refs": {
+      "wavcaps": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/all_classes_attack_metrics_v3/all_classes_long_table_v3.json",
+      "audioset": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/audioset_all_classes_overall_asr/audioset_all_classes_overall_asr_long.json"
+    }
+  },
+  {
+    "dataset": "clotho",
+    "class_name": "human_voice_speech",
+    "poison_rate_pct": 20,
+    "poison_count": 40,
+    "num_queries": 20,
+    "Overall_ASR": 0.8899999999999999,
+    "is_predicted": true,
+    "prediction_method": "weighted_interpolation_from_wavcaps_and_audioset_per_class",
+    "prediction_weights": {
+      "wavcaps": 0.7,
+      "audioset": 0.3
+    },
+    "source_refs": {
+      "wavcaps": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/all_classes_attack_metrics_v3/all_classes_long_table_v3.json",
+      "audioset": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/audioset_all_classes_overall_asr/audioset_all_classes_overall_asr_long.json"
+    }
+  },
+  {
+    "dataset": "clotho",
+    "class_name": "impact_material",
+    "poison_rate_pct": 1,
+    "poison_count": 1,
+    "num_queries": 11,
+    "Overall_ASR": 0.0,
+    "is_predicted": true,
+    "prediction_method": "weighted_interpolation_from_wavcaps_and_audioset_per_class",
+    "prediction_weights": {
+      "wavcaps": 0.7,
+      "audioset": 0.3
+    },
+    "source_refs": {
+      "wavcaps": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/all_classes_attack_metrics_v3/all_classes_long_table_v3.json",
+      "audioset": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/audioset_all_classes_overall_asr/audioset_all_classes_overall_asr_long.json"
+    }
+  },
+  {
+    "dataset": "clotho",
+    "class_name": "impact_material",
+    "poison_rate_pct": 5,
+    "poison_count": 2,
+    "num_queries": 11,
+    "Overall_ASR": 0.20923076923076922,
+    "is_predicted": true,
+    "prediction_method": "weighted_interpolation_from_wavcaps_and_audioset_per_class",
+    "prediction_weights": {
+      "wavcaps": 0.7,
+      "audioset": 0.3
+    },
+    "source_refs": {
+      "wavcaps": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/all_classes_attack_metrics_v3/all_classes_long_table_v3.json",
+      "audioset": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/audioset_all_classes_overall_asr/audioset_all_classes_overall_asr_long.json"
+    }
+  },
+  {
+    "dataset": "clotho",
+    "class_name": "impact_material",
+    "poison_rate_pct": 10,
+    "poison_count": 5,
+    "num_queries": 11,
+    "Overall_ASR": 0.6046153846153846,
+    "is_predicted": true,
+    "prediction_method": "weighted_interpolation_from_wavcaps_and_audioset_per_class",
+    "prediction_weights": {
+      "wavcaps": 0.7,
+      "audioset": 0.3
+    },
+    "source_refs": {
+      "wavcaps": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/all_classes_attack_metrics_v3/all_classes_long_table_v3.json",
+      "audioset": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/audioset_all_classes_overall_asr/audioset_all_classes_overall_asr_long.json"
+    }
+  },
+  {
+    "dataset": "clotho",
+    "class_name": "impact_material",
+    "poison_rate_pct": 15,
+    "poison_count": 8,
+    "num_queries": 11,
+    "Overall_ASR": 0.7907692307692307,
+    "is_predicted": true,
+    "prediction_method": "weighted_interpolation_from_wavcaps_and_audioset_per_class",
+    "prediction_weights": {
+      "wavcaps": 0.7,
+      "audioset": 0.3
+    },
+    "source_refs": {
+      "wavcaps": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/all_classes_attack_metrics_v3/all_classes_long_table_v3.json",
+      "audioset": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/audioset_all_classes_overall_asr/audioset_all_classes_overall_asr_long.json"
+    }
+  },
+  {
+    "dataset": "clotho",
+    "class_name": "impact_material",
+    "poison_rate_pct": 20,
+    "poison_count": 11,
+    "num_queries": 11,
+    "Overall_ASR": 0.8138461538461538,
+    "is_predicted": true,
+    "prediction_method": "weighted_interpolation_from_wavcaps_and_audioset_per_class",
+    "prediction_weights": {
+      "wavcaps": 0.7,
+      "audioset": 0.3
+    },
+    "source_refs": {
+      "wavcaps": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/all_classes_attack_metrics_v3/all_classes_long_table_v3.json",
+      "audioset": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/audioset_all_classes_overall_asr/audioset_all_classes_overall_asr_long.json"
+    }
+  },
+  {
+    "dataset": "clotho",
+    "class_name": "machine_mechanical",
+    "poison_rate_pct": 1,
+    "poison_count": 1,
+    "num_queries": 19,
+    "Overall_ASR": 0.034999999999999996,
+    "is_predicted": true,
+    "prediction_method": "weighted_interpolation_from_wavcaps_and_audioset_per_class",
+    "prediction_weights": {
+      "wavcaps": 0.7,
+      "audioset": 0.3
+    },
+    "source_refs": {
+      "wavcaps": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/all_classes_attack_metrics_v3/all_classes_long_table_v3.json",
+      "audioset": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/audioset_all_classes_overall_asr/audioset_all_classes_overall_asr_long.json"
+    }
+  },
+  {
+    "dataset": "clotho",
+    "class_name": "machine_mechanical",
+    "poison_rate_pct": 5,
+    "poison_count": 5,
+    "num_queries": 19,
+    "Overall_ASR": 0.2475,
+    "is_predicted": true,
+    "prediction_method": "weighted_interpolation_from_wavcaps_and_audioset_per_class",
+    "prediction_weights": {
+      "wavcaps": 0.7,
+      "audioset": 0.3
+    },
+    "source_refs": {
+      "wavcaps": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/all_classes_attack_metrics_v3/all_classes_long_table_v3.json",
+      "audioset": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/audioset_all_classes_overall_asr/audioset_all_classes_overall_asr_long.json"
+    }
+  },
+  {
+    "dataset": "clotho",
+    "class_name": "machine_mechanical",
+    "poison_rate_pct": 10,
+    "poison_count": 9,
+    "num_queries": 19,
+    "Overall_ASR": 0.46249999999999997,
+    "is_predicted": true,
+    "prediction_method": "weighted_interpolation_from_wavcaps_and_audioset_per_class",
+    "prediction_weights": {
+      "wavcaps": 0.7,
+      "audioset": 0.3
+    },
+    "source_refs": {
+      "wavcaps": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/all_classes_attack_metrics_v3/all_classes_long_table_v3.json",
+      "audioset": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/audioset_all_classes_overall_asr/audioset_all_classes_overall_asr_long.json"
+    }
+  },
+  {
+    "dataset": "clotho",
+    "class_name": "machine_mechanical",
+    "poison_rate_pct": 15,
+    "poison_count": 14,
+    "num_queries": 19,
+    "Overall_ASR": 0.7662499999999999,
+    "is_predicted": true,
+    "prediction_method": "weighted_interpolation_from_wavcaps_and_audioset_per_class",
+    "prediction_weights": {
+      "wavcaps": 0.7,
+      "audioset": 0.3
+    },
+    "source_refs": {
+      "wavcaps": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/all_classes_attack_metrics_v3/all_classes_long_table_v3.json",
+      "audioset": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/audioset_all_classes_overall_asr/audioset_all_classes_overall_asr_long.json"
+    }
+  },
+  {
+    "dataset": "clotho",
+    "class_name": "machine_mechanical",
+    "poison_rate_pct": 20,
+    "poison_count": 19,
+    "num_queries": 19,
+    "Overall_ASR": 0.83875,
+    "is_predicted": true,
+    "prediction_method": "weighted_interpolation_from_wavcaps_and_audioset_per_class",
+    "prediction_weights": {
+      "wavcaps": 0.7,
+      "audioset": 0.3
+    },
+    "source_refs": {
+      "wavcaps": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/all_classes_attack_metrics_v3/all_classes_long_table_v3.json",
+      "audioset": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/audioset_all_classes_overall_asr/audioset_all_classes_overall_asr_long.json"
+    }
+  },
+  {
+    "dataset": "clotho",
+    "class_name": "music_instrument",
+    "poison_rate_pct": 1,
+    "poison_count": 3,
+    "num_queries": 20,
+    "Overall_ASR": 0.13499999999999998,
+    "is_predicted": true,
+    "prediction_method": "weighted_interpolation_from_wavcaps_and_audioset_per_class",
+    "prediction_weights": {
+      "wavcaps": 0.7,
+      "audioset": 0.3
+    },
+    "source_refs": {
+      "wavcaps": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/all_classes_attack_metrics_v3/all_classes_long_table_v3.json",
+      "audioset": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/audioset_all_classes_overall_asr/audioset_all_classes_overall_asr_long.json"
+    }
+  },
+  {
+    "dataset": "clotho",
+    "class_name": "music_instrument",
+    "poison_rate_pct": 5,
+    "poison_count": 16,
+    "num_queries": 20,
+    "Overall_ASR": 0.6249999999999999,
+    "is_predicted": true,
+    "prediction_method": "weighted_interpolation_from_wavcaps_and_audioset_per_class",
+    "prediction_weights": {
+      "wavcaps": 0.7,
+      "audioset": 0.3
+    },
+    "source_refs": {
+      "wavcaps": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/all_classes_attack_metrics_v3/all_classes_long_table_v3.json",
+      "audioset": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/audioset_all_classes_overall_asr/audioset_all_classes_overall_asr_long.json"
+    }
+  },
+  {
+    "dataset": "clotho",
+    "class_name": "music_instrument",
+    "poison_rate_pct": 10,
+    "poison_count": 32,
+    "num_queries": 20,
+    "Overall_ASR": 0.7050000000000001,
+    "is_predicted": true,
+    "prediction_method": "weighted_interpolation_from_wavcaps_and_audioset_per_class",
+    "prediction_weights": {
+      "wavcaps": 0.7,
+      "audioset": 0.3
+    },
+    "source_refs": {
+      "wavcaps": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/all_classes_attack_metrics_v3/all_classes_long_table_v3.json",
+      "audioset": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/audioset_all_classes_overall_asr/audioset_all_classes_overall_asr_long.json"
+    }
+  },
+  {
+    "dataset": "clotho",
+    "class_name": "music_instrument",
+    "poison_rate_pct": 15,
+    "poison_count": 49,
+    "num_queries": 20,
+    "Overall_ASR": 0.83,
+    "is_predicted": true,
+    "prediction_method": "weighted_interpolation_from_wavcaps_and_audioset_per_class",
+    "prediction_weights": {
+      "wavcaps": 0.7,
+      "audioset": 0.3
+    },
+    "source_refs": {
+      "wavcaps": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/all_classes_attack_metrics_v3/all_classes_long_table_v3.json",
+      "audioset": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/audioset_all_classes_overall_asr/audioset_all_classes_overall_asr_long.json"
+    }
+  },
+  {
+    "dataset": "clotho",
+    "class_name": "music_instrument",
+    "poison_rate_pct": 20,
+    "poison_count": 65,
+    "num_queries": 20,
+    "Overall_ASR": 0.7799999999999999,
+    "is_predicted": true,
+    "prediction_method": "weighted_interpolation_from_wavcaps_and_audioset_per_class",
+    "prediction_weights": {
+      "wavcaps": 0.7,
+      "audioset": 0.3
+    },
+    "source_refs": {
+      "wavcaps": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/all_classes_attack_metrics_v3/all_classes_long_table_v3.json",
+      "audioset": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/audioset_all_classes_overall_asr/audioset_all_classes_overall_asr_long.json"
+    }
+  },
+  {
+    "dataset": "clotho",
+    "class_name": "vehicle_transport",
+    "poison_rate_pct": 1,
+    "poison_count": 1,
+    "num_queries": 20,
+    "Overall_ASR": 0.0,
+    "is_predicted": true,
+    "prediction_method": "weighted_interpolation_from_wavcaps_and_audioset_per_class",
+    "prediction_weights": {
+      "wavcaps": 0.7,
+      "audioset": 0.3
+    },
+    "source_refs": {
+      "wavcaps": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/all_classes_attack_metrics_v3/all_classes_long_table_v3.json",
+      "audioset": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/audioset_all_classes_overall_asr/audioset_all_classes_overall_asr_long.json"
+    }
+  },
+  {
+    "dataset": "clotho",
+    "class_name": "vehicle_transport",
+    "poison_rate_pct": 5,
+    "poison_count": 8,
+    "num_queries": 20,
+    "Overall_ASR": 0.265,
+    "is_predicted": true,
+    "prediction_method": "weighted_interpolation_from_wavcaps_and_audioset_per_class",
+    "prediction_weights": {
+      "wavcaps": 0.7,
+      "audioset": 0.3
+    },
+    "source_refs": {
+      "wavcaps": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/all_classes_attack_metrics_v3/all_classes_long_table_v3.json",
+      "audioset": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/audioset_all_classes_overall_asr/audioset_all_classes_overall_asr_long.json"
+    }
+  },
+  {
+    "dataset": "clotho",
+    "class_name": "vehicle_transport",
+    "poison_rate_pct": 10,
+    "poison_count": 15,
+    "num_queries": 20,
+    "Overall_ASR": 0.6149999999999999,
+    "is_predicted": true,
+    "prediction_method": "weighted_interpolation_from_wavcaps_and_audioset_per_class",
+    "prediction_weights": {
+      "wavcaps": 0.7,
+      "audioset": 0.3
+    },
+    "source_refs": {
+      "wavcaps": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/all_classes_attack_metrics_v3/all_classes_long_table_v3.json",
+      "audioset": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/audioset_all_classes_overall_asr/audioset_all_classes_overall_asr_long.json"
+    }
+  },
+  {
+    "dataset": "clotho",
+    "class_name": "vehicle_transport",
+    "poison_rate_pct": 15,
+    "poison_count": 23,
+    "num_queries": 20,
+    "Overall_ASR": 0.6599999999999999,
+    "is_predicted": true,
+    "prediction_method": "weighted_interpolation_from_wavcaps_and_audioset_per_class",
+    "prediction_weights": {
+      "wavcaps": 0.7,
+      "audioset": 0.3
+    },
+    "source_refs": {
+      "wavcaps": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/all_classes_attack_metrics_v3/all_classes_long_table_v3.json",
+      "audioset": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/audioset_all_classes_overall_asr/audioset_all_classes_overall_asr_long.json"
+    }
+  },
+  {
+    "dataset": "clotho",
+    "class_name": "vehicle_transport",
+    "poison_rate_pct": 20,
+    "poison_count": 31,
+    "num_queries": 20,
+    "Overall_ASR": 0.7849999999999999,
+    "is_predicted": true,
+    "prediction_method": "weighted_interpolation_from_wavcaps_and_audioset_per_class",
+    "prediction_weights": {
+      "wavcaps": 0.7,
+      "audioset": 0.3
+    },
+    "source_refs": {
+      "wavcaps": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/all_classes_attack_metrics_v3/all_classes_long_table_v3.json",
+      "audioset": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/audioset_all_classes_overall_asr/audioset_all_classes_overall_asr_long.json"
+    }
+  },
+  {
+    "dataset": "clotho",
+    "class_name": "water_weather",
+    "poison_rate_pct": 1,
+    "poison_count": 1,
+    "num_queries": 18,
+    "Overall_ASR": 0.034999999999999996,
+    "is_predicted": true,
+    "prediction_method": "weighted_interpolation_from_wavcaps_and_audioset_per_class",
+    "prediction_weights": {
+      "wavcaps": 0.7,
+      "audioset": 0.3
+    },
+    "source_refs": {
+      "wavcaps": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/all_classes_attack_metrics_v3/all_classes_long_table_v3.json",
+      "audioset": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/audioset_all_classes_overall_asr/audioset_all_classes_overall_asr_long.json"
+    }
+  },
+  {
+    "dataset": "clotho",
+    "class_name": "water_weather",
+    "poison_rate_pct": 5,
+    "poison_count": 5,
+    "num_queries": 18,
+    "Overall_ASR": 0.3385714285714286,
+    "is_predicted": true,
+    "prediction_method": "weighted_interpolation_from_wavcaps_and_audioset_per_class",
+    "prediction_weights": {
+      "wavcaps": 0.7,
+      "audioset": 0.3
+    },
+    "source_refs": {
+      "wavcaps": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/all_classes_attack_metrics_v3/all_classes_long_table_v3.json",
+      "audioset": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/audioset_all_classes_overall_asr/audioset_all_classes_overall_asr_long.json"
+    }
+  },
+  {
+    "dataset": "clotho",
+    "class_name": "water_weather",
+    "poison_rate_pct": 10,
+    "poison_count": 10,
+    "num_queries": 18,
+    "Overall_ASR": 0.5642857142857143,
+    "is_predicted": true,
+    "prediction_method": "weighted_interpolation_from_wavcaps_and_audioset_per_class",
+    "prediction_weights": {
+      "wavcaps": 0.7,
+      "audioset": 0.3
+    },
+    "source_refs": {
+      "wavcaps": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/all_classes_attack_metrics_v3/all_classes_long_table_v3.json",
+      "audioset": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/audioset_all_classes_overall_asr/audioset_all_classes_overall_asr_long.json"
+    }
+  },
+  {
+    "dataset": "clotho",
+    "class_name": "water_weather",
+    "poison_rate_pct": 15,
+    "poison_count": 16,
+    "num_queries": 18,
+    "Overall_ASR": 0.7957142857142856,
+    "is_predicted": true,
+    "prediction_method": "weighted_interpolation_from_wavcaps_and_audioset_per_class",
+    "prediction_weights": {
+      "wavcaps": 0.7,
+      "audioset": 0.3
+    },
+    "source_refs": {
+      "wavcaps": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/all_classes_attack_metrics_v3/all_classes_long_table_v3.json",
+      "audioset": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/audioset_all_classes_overall_asr/audioset_all_classes_overall_asr_long.json"
+    }
+  },
+  {
+    "dataset": "clotho",
+    "class_name": "water_weather",
+    "poison_rate_pct": 20,
+    "poison_count": 21,
+    "num_queries": 18,
+    "Overall_ASR": 0.782142857142857,
+    "is_predicted": true,
+    "prediction_method": "weighted_interpolation_from_wavcaps_and_audioset_per_class",
+    "prediction_weights": {
+      "wavcaps": 0.7,
+      "audioset": 0.3
+    },
+    "source_refs": {
+      "wavcaps": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/all_classes_attack_metrics_v3/all_classes_long_table_v3.json",
+      "audioset": "/scratch/shuhaoz/CU_Project/PoisionedRAG/malicious_dataset/audioset_all_classes_overall_asr/audioset_all_classes_overall_asr_long.json"
+    }
+  }
+]

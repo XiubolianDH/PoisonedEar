@@ -1,0 +1,72 @@
+{
+  "task": "preliminary_clean_rag_vs_no_rag_effectiveness",
+  "dataset": "wavcaps_freesound",
+  "source_files": {
+    "summary_json": "/scratch/shuhaoz/CU_Project/PoisionedRAG/outputs/results_clean_wavcaps.summary.json",
+    "results_csv": "/scratch/shuhaoz/CU_Project/PoisionedRAG/outputs/results_clean_wavcaps.csv"
+  },
+  "overall_means": {
+    "num_rows": 4192,
+    "acc_rag_mean": 0.09780534351145038,
+    "acc_no_rag_mean": 0.011450381679389313,
+    "clap_response_rag_mean": 0.45346533420801527,
+    "clap_response_no_rag_mean": 0.40051472328244275,
+    "consistency_rag_mean": 0.45346533420801527,
+    "consistency_no_rag_mean": 0.40051472328244275,
+    "acc_absolute_lift_mean": 0.08635496183206107,
+    "acc_relative_lift_mean": 7.541666666666666,
+    "clap_absolute_lift_mean": 0.05295061092557252,
+    "clap_relative_lift_mean": 0.13220640302961292
+  },
+  "per_k": [
+    {
+      "k": 1,
+      "acc_rag": 0.11354961832061068,
+      "acc_no_rag": 0.011450381679389313,
+      "acc_absolute_lift": 0.10209923664122136,
+      "acc_relative_lift": 8.916666666666666,
+      "clap_response_rag": 0.48700160209923665,
+      "clap_response_no_rag": 0.40051472328244275,
+      "clap_absolute_lift": 0.0864868788167939,
+      "clap_relative_lift": 0.21593932454713632
+    },
+    {
+      "k": 5,
+      "acc_rag": 0.0868320610687023,
+      "acc_no_rag": 0.011450381679389313,
+      "acc_absolute_lift": 0.07538167938931298,
+      "acc_relative_lift": 6.583333333333333,
+      "clap_response_rag": 0.4451877414122137,
+      "clap_response_no_rag": 0.40051472328244275,
+      "clap_absolute_lift": 0.044673018129770925,
+      "clap_relative_lift": 0.11153901600333313
+    },
+    {
+      "k": 10,
+      "acc_rag": 0.09446564885496184,
+      "acc_no_rag": 0.011450381679389313,
+      "acc_absolute_lift": 0.08301526717557252,
+      "acc_relative_lift": 7.25,
+      "clap_response_rag": 0.4414215830152672,
+      "clap_response_no_rag": 0.40051472328244275,
+      "clap_absolute_lift": 0.04090685973282443,
+      "clap_relative_lift": 0.10213572024910789
+    },
+    {
+      "k": 20,
+      "acc_rag": 0.09637404580152671,
+      "acc_no_rag": 0.011450381679389313,
+      "acc_absolute_lift": 0.0849236641221374,
+      "acc_relative_lift": 7.416666666666666,
+      "clap_response_rag": 0.4402504103053435,
+      "clap_response_no_rag": 0.40051472328244275,
+      "clap_absolute_lift": 0.039735687022900756,
+      "clap_relative_lift": 0.09921155131887417
+    }
+  ],
+  "notes": [
+    "This is a preliminary clean baseline comparison rather than the main poisoning experiment.",
+    "Accuracy is computed with token-overlap thresholding in run_clean_wavcaps_eval.py.",
+    "CLAP response score is a semantic alignment metric between query audio and generated response text."
+  ]
+}

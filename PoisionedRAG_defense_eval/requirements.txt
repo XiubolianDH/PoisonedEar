@@ -1,0 +1,11 @@
+numpy
+scikit-learn
+librosa
+PyYAML
+openai
+google-generativeai
+transformers
+torch
+sentence-transformers
+tqdm
+faiss-cpu

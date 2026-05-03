@@ -1,0 +1,112 @@
+[
+  {
+    "poison_rate_pct": 1,
+    "num_queries": 131,
+    "is_predicted": true,
+    "prediction_method": "weighted_interpolation_from_wavcaps_and_audioset",
+    "prediction_weights": {
+      "wavcaps": 0.2,
+      "audioset": 0.8
+    },
+    "source_refs": {
+      "wavcaps": "/scratch/shuhaoz/CU_Project/PoisionedRAG/4_dataset_overrallASR_result/wavcaps/overall_wavcpas.jsonl",
+      "audioset": "/scratch/shuhaoz/CU_Project/PoisionedRAG/4_dataset_overrallASR_result/audioset/overrall_audioset.jsonl"
+    },
+    "dataset": "esc50",
+    "ASR-R": 0.11750127425907639,
+    "ASR-G|R": 0.36032750006175307,
+    "Overall_ASR": 0.08375037593984962,
+    "avg_attack_margin|R": 0.016307095911823024,
+    "Precision@k": 0.025070306327450116,
+    "Recall@k": 0.035010684338705966,
+    "F1@k": 0.025324904824171865
+  },
+  {
+    "poison_rate_pct": 5,
+    "num_queries": 130,
+    "is_predicted": true,
+    "prediction_method": "weighted_interpolation_from_wavcaps_and_audioset",
+    "prediction_weights": {
+      "wavcaps": 0.2,
+      "audioset": 0.8
+    },
+    "source_refs": {
+      "wavcaps": "/scratch/shuhaoz/CU_Project/PoisionedRAG/4_dataset_overrallASR_result/wavcaps/overall_wavcpas.jsonl",
+      "audioset": "/scratch/shuhaoz/CU_Project/PoisionedRAG/4_dataset_overrallASR_result/audioset/overrall_audioset.jsonl"
+    },
+    "dataset": "esc50",
+    "ASR-R": 0.5131992068971364,
+    "ASR-G|R": 0.6241038693702983,
+    "Overall_ASR": 0.33400606060606064,
+    "avg_attack_margin|R": 0.07496742168396066,
+    "Precision@k": 0.15716884066527595,
+    "Recall@k": 0.10623172136100806,
+    "F1@k": 0.10378118295287667
+  },
+  {
+    "poison_rate_pct": 10,
+    "num_queries": 130,
+    "is_predicted": true,
+    "prediction_method": "weighted_interpolation_from_wavcaps_and_audioset",
+    "prediction_weights": {
+      "wavcaps": 0.2,
+      "audioset": 0.8
+    },
+    "source_refs": {
+      "wavcaps": "/scratch/shuhaoz/CU_Project/PoisionedRAG/4_dataset_overrallASR_result/wavcaps/overall_wavcpas.jsonl",
+      "audioset": "/scratch/shuhaoz/CU_Project/PoisionedRAG/4_dataset_overrallASR_result/audioset/overrall_audioset.jsonl"
+    },
+    "dataset": "esc50",
+    "ASR-R": 0.7644815706383221,
+    "ASR-G|R": 0.7340542218519215,
+    "Overall_ASR": 0.5692848484848485,
+    "avg_attack_margin|R": 0.13008738382465573,
+    "Precision@k": 0.2677165126952283,
+    "Recall@k": 0.10351228960325473,
+    "F1@k": 0.1263230342231568
+  },
+  {
+    "poison_rate_pct": 15,
+    "num_queries": 130,
+    "is_predicted": true,
+    "prediction_method": "weighted_interpolation_from_wavcaps_and_audioset",
+    "prediction_weights": {
+      "wavcaps": 0.2,
+      "audioset": 0.8
+    },
+    "source_refs": {
+      "wavcaps": "/scratch/shuhaoz/CU_Project/PoisionedRAG/4_dataset_overrallASR_result/wavcaps/overall_wavcpas.jsonl",
+      "audioset": "/scratch/shuhaoz/CU_Project/PoisionedRAG/4_dataset_overrallASR_result/audioset/overrall_audioset.jsonl"
+    },
+    "dataset": "esc50",
+    "ASR-R": 0.9179662873189638,
+    "ASR-G|R": 0.7956861992687009,
+    "Overall_ASR": 0.7333090424121212,
+    "avg_attack_margin|R": 0.19497476691156695,
+    "Precision@k": 0.36952109823580453,
+    "Recall@k": 0.10079756487642154,
+    "F1@k": 0.1374583584843469
+  },
+  {
+    "poison_rate_pct": 20,
+    "num_queries": 130,
+    "is_predicted": true,
+    "prediction_method": "weighted_interpolation_from_wavcaps_and_audioset",
+    "prediction_weights": {
+      "wavcaps": 0.2,
+      "audioset": 0.8
+    },
+    "source_refs": {
+      "wavcaps": "/scratch/shuhaoz/CU_Project/PoisionedRAG/4_dataset_overrallASR_result/wavcaps/overall_wavcpas.jsonl",
+      "audioset": "/scratch/shuhaoz/CU_Project/PoisionedRAG/4_dataset_overrallASR_result/audioset/overrall_audioset.jsonl"
+    },
+    "dataset": "esc50",
+    "ASR-R": 0.9939393939393939,
+    "ASR-G|R": 0.8335681020733653,
+    "Overall_ASR": 0.8304181818181818,
+    "avg_attack_margin|R": 0.22579763565914554,
+    "Precision@k": 0.46214638061013846,
+    "Recall@k": 0.09552808163315238,
+    "F1@k": 0.14146193903813326
+  }
+]

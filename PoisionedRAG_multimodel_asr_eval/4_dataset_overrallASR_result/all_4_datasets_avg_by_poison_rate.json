@@ -1,0 +1,67 @@
+[
+  {
+    "poison_rate_pct": 1,
+    "num_datasets": 4,
+    "avg_Overall_ASR": 0.09552368421052632,
+    "avg_ASR-R": 0.1343286842600433,
+    "avg_ASR-G|R": 0.48015124623062344,
+    "datasets": [
+      "audioset",
+      "clotho",
+      "esc50",
+      "wavcaps"
+    ]
+  },
+  {
+    "poison_rate_pct": 5,
+    "num_datasets": 4,
+    "avg_Overall_ASR": 0.3453477272727273,
+    "avg_ASR-R": 0.5000981163806989,
+    "avg_ASR-G|R": 0.6751116646918018,
+    "datasets": [
+      "audioset",
+      "clotho",
+      "esc50",
+      "wavcaps"
+    ]
+  },
+  {
+    "poison_rate_pct": 10,
+    "num_datasets": 4,
+    "avg_Overall_ASR": 0.5812181818181817,
+    "avg_ASR-R": 0.7531437302660151,
+    "avg_ASR-G|R": 0.7655581498129803,
+    "datasets": [
+      "audioset",
+      "clotho",
+      "esc50",
+      "wavcaps"
+    ]
+  },
+  {
+    "poison_rate_pct": 15,
+    "num_datasets": 4,
+    "avg_Overall_ASR": 0.7411090590829545,
+    "avg_ASR-R": 0.9248895844658722,
+    "avg_ASR-G|R": 0.7991897692113684,
+    "datasets": [
+      "audioset",
+      "clotho",
+      "esc50",
+      "wavcaps"
+    ]
+  },
+  {
+    "poison_rate_pct": 20,
+    "num_datasets": 4,
+    "avg_Overall_ASR": 0.8433369318181818,
+    "avg_ASR-R": 0.9960227272727272,
+    "avg_ASR-G|R": 0.845404066985646,
+    "datasets": [
+      "audioset",
+      "clotho",
+      "esc50",
+      "wavcaps"
+    ]
+  }
+]

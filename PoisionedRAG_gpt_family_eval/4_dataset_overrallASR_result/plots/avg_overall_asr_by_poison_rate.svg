@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="560" viewBox="0 0 900 560">
+<rect width="100%" height="100%" fill="white"/>
+<text x="70" y="28" font-family="Arial, sans-serif" font-size="24" font-weight="700">Average Overall ASR by Poison Rate</text>
+<text x="70" y="50" font-family="Arial, sans-serif" font-size="13" fill="#555">Mean across wavcaps, audioset, predicted clotho, and predicted esc50</text>
+<line x1="70" y1="480.00" x2="870" y2="480.00" stroke="#e5e7eb" stroke-width="1"/>
+<text x="58" y="484.00" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#444">0.0</text>
+<line x1="70" y1="392.00" x2="870" y2="392.00" stroke="#e5e7eb" stroke-width="1"/>
+<text x="58" y="396.00" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#444">0.2</text>
+<line x1="70" y1="304.00" x2="870" y2="304.00" stroke="#e5e7eb" stroke-width="1"/>
+<text x="58" y="308.00" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#444">0.4</text>
+<line x1="70" y1="216.00" x2="870" y2="216.00" stroke="#e5e7eb" stroke-width="1"/>
+<text x="58" y="220.00" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#444">0.6</text>
+<line x1="70" y1="128.00" x2="870" y2="128.00" stroke="#e5e7eb" stroke-width="1"/>
+<text x="58" y="132.00" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#444">0.8</text>
+<line x1="70" y1="40.00" x2="870" y2="40.00" stroke="#e5e7eb" stroke-width="1"/>
+<text x="58" y="44.00" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#444">1.0</text>
+<line x1="70" y1="480" x2="870" y2="480" stroke="#111" stroke-width="1.5"/>
+<line x1="70" y1="40" x2="70" y2="480" stroke="#111" stroke-width="1.5"/>
+<rect x="123.33" y="437.97" width="106.67" height="42.03" fill="#4f46e5" rx="4"/>
+<text x="176.67" y="427.97" text-anchor="middle" font-family="Arial, sans-serif" font-size="11">0.096</text>
+<text x="176.67" y="504.00" text-anchor="middle" font-family="Arial, sans-serif" font-size="12">1%</text>
+<rect x="283.33" y="328.05" width="106.67" height="151.95" fill="#4f46e5" rx="4"/>
+<text x="336.67" y="318.05" text-anchor="middle" font-family="Arial, sans-serif" font-size="11">0.345</text>
+<text x="336.67" y="504.00" text-anchor="middle" font-family="Arial, sans-serif" font-size="12">5%</text>
+<rect x="443.33" y="224.26" width="106.67" height="255.74" fill="#4f46e5" rx="4"/>
+<text x="496.67" y="214.26" text-anchor="middle" font-family="Arial, sans-serif" font-size="11">0.581</text>
+<text x="496.67" y="504.00" text-anchor="middle" font-family="Arial, sans-serif" font-size="12">10%</text>
+<rect x="603.33" y="153.91" width="106.67" height="326.09" fill="#4f46e5" rx="4"/>
+<text x="656.67" y="143.91" text-anchor="middle" font-family="Arial, sans-serif" font-size="11">0.741</text>
+<text x="656.67" y="504.00" text-anchor="middle" font-family="Arial, sans-serif" font-size="12">15%</text>
+<rect x="763.33" y="108.93" width="106.67" height="371.07" fill="#4f46e5" rx="4"/>
+<text x="816.67" y="98.93" text-anchor="middle" font-family="Arial, sans-serif" font-size="11">0.843</text>
+<text x="816.67" y="504.00" text-anchor="middle" font-family="Arial, sans-serif" font-size="12">20%</text>
+<text x="450" y="542" text-anchor="middle" font-family="Arial, sans-serif" font-size="13">Poison Rate</text>
+<text x="22" y="280" transform="rotate(-90 22 280)" text-anchor="middle" font-family="Arial, sans-serif" font-size="13">Average Overall ASR</text>
+</svg>

@@ -1,0 +1,27 @@
+{
+  "dataset_counts": {
+    "wavcaps_freesound": 1060,
+    "clotho_full": 19690,
+    "audioset": 2500,
+    "esc50": 2000
+  },
+  "dataset_total": 25250,
+  "class_counts_10_classes": {
+    "other": 4647,
+    "electronic_synthetic": 509,
+    "music_instrument": 1581,
+    "water_weather": 3850,
+    "human_voice_speech": 3690,
+    "machine_mechanical": 2429,
+    "vehicle_transport": 4350,
+    "animal_bio": 3100,
+    "impact_material": 710,
+    "ambience_environment": 384
+  },
+  "class_total": 25250,
+  "sources": {
+    "full_datasets": "/scratch/shuhaoz/CU_Project/PoisionedRAG/data/full_datasets",
+    "wavcaps_clotho_esc50_class_summary": "/scratch/shuhaoz/CU_Project/PoisionedRAG/classified_dataset/wavcaps_clotho_esc50/class_summary.json",
+    "audioset_class_summary": "/scratch/shuhaoz/CU_Project/PoisionedRAG/classified_dataset/audioset/class_summary.json"
+  }
+}

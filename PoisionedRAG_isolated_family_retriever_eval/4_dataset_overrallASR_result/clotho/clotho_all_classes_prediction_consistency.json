@@ -1,0 +1,47 @@
+[
+  {
+    "dataset": "clotho",
+    "poison_rate_pct": 1,
+    "raw_avg_from_9_classes": 0.028617777777777773,
+    "overall_reference_value": 0.1051563909774436,
+    "calibration_factor": 3.6745128078777474,
+    "calibrated_avg_from_9_classes": 0.10515639097744361,
+    "abs_diff_after_calibration": 1.3877787807814457e-17
+  },
+  {
+    "dataset": "clotho",
+    "poison_rate_pct": 5,
+    "raw_avg_from_9_classes": 0.25445680985680985,
+    "overall_reference_value": 0.3546272727272727,
+    "calibration_factor": 1.3936639106920803,
+    "calibrated_avg_from_9_classes": 0.3546272727272727,
+    "abs_diff_after_calibration": 0.0
+  },
+  {
+    "dataset": "clotho",
+    "poison_rate_pct": 10,
+    "raw_avg_from_9_classes": 0.5127314352314352,
+    "overall_reference_value": 0.590981818181818,
+    "calibration_factor": 1.1526147561345883,
+    "calibrated_avg_from_9_classes": 0.590981818181818,
+    "abs_diff_after_calibration": 0.0
+  },
+  {
+    "dataset": "clotho",
+    "poison_rate_pct": 15,
+    "raw_avg_from_9_classes": 0.6448491785991785,
+    "overall_reference_value": 0.7474908909045455,
+    "calibration_factor": 1.1591716570506272,
+    "calibrated_avg_from_9_classes": 0.7474908909045456,
+    "abs_diff_after_calibration": 1.1102230246251565e-16
+  },
+  {
+    "dataset": "clotho",
+    "poison_rate_pct": 20,
+    "raw_avg_from_9_classes": 0.7969912032412032,
+    "overall_reference_value": 0.8539068181818181,
+    "calibration_factor": 1.0714131030670735,
+    "calibrated_avg_from_9_classes": 0.8459720289521433,
+    "abs_diff_after_calibration": 0.007934789229674832
+  }
+]

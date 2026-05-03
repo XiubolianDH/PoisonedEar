@@ -1,0 +1,84 @@
+project:
+  seed: 7
+input:
+  datasets:
+  - wavcaps
+  source_sample_ids: []
+  max_samples_per_dataset: 20
+  shard_index: 0
+  num_shards: 1
+attack:
+  prompt_template_path: attack_generation/prompts/cdab_prompt_template.txt
+  acoustic_description_max_words: 32
+  adversarial_caption_max_words: 32
+  max_attempts_per_sample: 3
+  candidates_per_sample: 4
+  require_caption_difference: true
+  low_level_forbidden_words:
+  - dog
+  - speech
+  - voice
+  - siren
+  - piano
+  - guitar
+  - footsteps
+  - car
+  - engine
+  - laughter
+  consistency_cue_words:
+  - burst
+  - continuous
+  - intermittent
+  - low
+  - mid
+  - high
+  - broadband
+  - steady
+  - fluctuating
+  - transient
+  - rhythmic
+  - repetitive
+  - harmonic
+  - noisy
+  - rough
+  - smooth
+  min_acoustic_consistency: 0.45
+  min_semantic_distance: 0.35
+  min_candidate_diversity_distance: 0.18
+  interpretation_styles:
+  - dynamic physical process
+  - signal or emission pattern
+  - system behavior or interaction
+  - abstract non-obvious mechanism
+  - artificial or engineered interpretation
+  - distributed or stochastic process
+  anti_collapse_phrases:
+  - industrial system
+  - mechanical system
+  - machine operating
+  - machinery running
+  - generic background process
+model:
+  use_root_model_config: false
+  victim_provider: openai
+  victim_model: gpt-4o-audio-preview
+  temperature: 0.4
+  max_tokens: 220
+  request_timeout_seconds: 45
+  request_max_retries: 0
+  openai_api_key_env: OPENAI_API_KEY
+  gemini_api_key_env: GEMINI_API_KEY
+  qwen_api_base_env: QWEN_API_BASE
+  qwen_api_key_env: QWEN_API_KEY
+runtime:
+  retry_backoff_seconds: 3.0
+  continue_on_error: true
+  show_progress: true
+metrics:
+  enabled: true
+  text_embedding_model: sentence-transformers/all-MiniLM-L6-v2
+output:
+  workspace_dir: attack_generation/workspace
+  output_csv: attack_generation/generated/cdab_attack_samples_wavcaps_20.csv
+  error_jsonl: attack_generation/logs/cdab_generation_wavcaps_20.errors.jsonl
+  log_path: attack_generation/logs/cdab_generation_wavcaps_20.log
