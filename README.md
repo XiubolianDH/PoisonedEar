@@ -4,7 +4,7 @@ PoisonedEar is a research workspace for studying retrieval poisoning attacks aga
 
 This repository is designed as an experiment suite rather than a single script. It includes the main attack pipeline, rate-sweep builders, top-k studies, model-family comparisons, retriever-family comparisons, multi-model attack-success evaluation, and a standalone defense workspace.
 
-#Artifacture
+# Framework Description
 
 <img width="1364" height="514" alt="AudioRAG" src="https://github.com/user-attachments/assets/c1e2299f-ea6d-4f75-9d4f-914d458db5a1" />
 
