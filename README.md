@@ -11,7 +11,7 @@ This repository is designed as an experiment suite rather than a single script. 
 
 # Framework Description
 
-
+![demo](assets/AudioRAG.gif)
 
 Figure above illustrates the overall pipeline of our proposed retrieval poisoning attack against Audio Retrieval-Augmented Generation (AudioRAG) systems.
 
