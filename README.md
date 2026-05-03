@@ -3,7 +3,7 @@
 ![Status](https://img.shields.io/badge/Status-Research-orange)
 ![Conference](https://img.shields.io/badge/CCS-2026-red)
 ![Task](https://img.shields.io/badge/Task-AudioRAG-purple)
-![Attack](https://img.shields.io/badge/Type-Retrieval%20Poisoning-critical)
+![Attack](https://img.shields.io/badge/Type-Retrieval%20Poisoning%20Attack-critical)
 
 PoisonedEar is a research workspace for studying retrieval poisoning attacks against audio retrieval-augmented generation (Audio RAG) systems, together with follow-up analyses on model families, retriever families, top-k sensitivity, multi-model ASR, and defensive filtering.
 
